@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\CYBER\\luDefender\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|e:\\folder tudor\\cyber\\ludefender\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\CYBER\\luDefender\\controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|e:\\folder tudor\\cyber\\ludefender\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|e:\\folder tudor\\cyber\\ludefender\\controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|e:\\folder tudor\\cyber\\ludefender\\forms\\frmpopup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:forms\\frmpopup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|e:\\folder tudor\\cyber\\ludefender\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\CYBER\\luDefender\\forms\\frmpopup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:forms\\frmpopup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\CYBER\\luDefender\\customcontrols\\mybutton.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:customcontrols\\mybutton.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\CYBER\\luDefender\\classes\\mycolors.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:classes\\mycolors.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ctlScanning.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlScanning.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlScanning.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlScanning.vb",
+              "RelativeToolTip": "Controls\\ctlScanning.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T13:46:52.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ctlScanning.vb [Design]",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlScanning.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlScanning.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlScanning.vb [Design]",
+              "RelativeToolTip": "Controls\\ctlScanning.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T09:08:54.716Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmPopup.vb [Design]",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Forms\\frmPopup.vb",
+              "RelativeDocumentMoniker": "Forms\\frmPopup.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Forms\\frmPopup.vb [Design]",
+              "RelativeToolTip": "Forms\\frmPopup.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T13:17:05.37Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ctlDashboard.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlDashboard.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlDashboard.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlDashboard.vb",
+              "RelativeToolTip": "Controls\\ctlDashboard.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T11:45:03.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ctlDashboard.vb [Design]",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlDashboard.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlDashboard.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Controls\\ctlDashboard.vb [Design]",
+              "RelativeToolTip": "Controls\\ctlDashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T11:41:36.028Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmPopup.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Forms\\frmPopup.vb",
+              "RelativeDocumentMoniker": "Forms\\frmPopup.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Forms\\frmPopup.vb",
+              "RelativeToolTip": "Forms\\frmPopup.vb",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAWwBcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T08:50:33.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "luDefenderForm.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefenderForm.vb",
+              "RelativeDocumentMoniker": "luDefenderForm.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefenderForm.vb",
+              "RelativeToolTip": "luDefenderForm.vb",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-11T13:30:25.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "luDefenderForm.vb [Design]",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefenderForm.vb",
+              "RelativeDocumentMoniker": "luDefenderForm.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefenderForm.vb [Design]",
+              "RelativeToolTip": "luDefenderForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-08T16:28:27.491Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "myButton.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\CustomControls\\myButton.vb",
+              "RelativeDocumentMoniker": "CustomControls\\myButton.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\CustomControls\\myButton.vb",
+              "RelativeToolTip": "CustomControls\\myButton.vb",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswC0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-11T08:02:09.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "myColors.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Classes\\myColors.vb",
+              "RelativeDocumentMoniker": "Classes\\myColors.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\Classes\\myColors.vb",
+              "RelativeToolTip": "Classes\\myColors.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-11T12:44:51.179Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
