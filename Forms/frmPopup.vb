@@ -6,7 +6,9 @@ Public Class frmPopup
     Public Const HT_CAPTION As Integer = &H2
 
     Private Sub MyButton2_Click(sender As Object, e As EventArgs) Handles MyButton2.Click
-        Application.Exit()
+        'Application.Exit()
+        Main.Hide()
+        Me.Close()
     End Sub
 
     Private Sub MyButton1_Click(sender As Object, e As EventArgs) Handles MyButton1.Click

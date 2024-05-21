@@ -18,3 +18,9 @@ E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.Main.resour
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.Resources.resources
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmPopup.resources
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.ctlScanning.resources
+E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmVirus.resources
+E:\FOLDER TUDOR\CYBER\luDefender\bin\Debug\net8.0-windows\luDefender.dll.config
+E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmFirewall.resources
+E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmTools.resources
+E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmSettings.resources
+E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.urlCheck.resources

@@ -7,13 +7,28 @@
     <Compile Update="Controls\ctlScanning.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\frmSettings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\frmTools.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\urlCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CustomControls\circularPictureBox.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Update="CustomControls\myButton.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="Forms\frmFirewall.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\frmPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmVirus.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="luDefenderForm.vb">

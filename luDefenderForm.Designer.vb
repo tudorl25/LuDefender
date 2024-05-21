@@ -24,258 +24,273 @@ Partial Class Main
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
-        panelPanel = New Panel()
-        settingButton = New myButton()
-        logButton = New myButton()
-        toolButton = New myButton()
-        scanButton = New myButton()
-        dashButton = New myButton()
-        slideThingy = New PictureBox()
-        topPanel = New Panel()
-        ludiLogo = New PictureBox()
-        closeButton = New PictureBox()
-        minButton = New PictureBox()
-        lblTitle = New Label()
-        Panel2 = New Panel()
-        MainPanel = New Panel()
-        CtlScanning1 = New ctlScanning()
-        CtlDashboard1 = New ctlDashboard()
         Timer1 = New Timer(components)
-        panelPanel.SuspendLayout()
-        CType(slideThingy, ComponentModel.ISupportInitialize).BeginInit()
+        Timer2 = New Timer(components)
+        NotifyIcon1 = New NotifyIcon(components)
+        mainPanel = New Panel()
+        topPanel = New Panel()
+        btnClose = New PictureBox()
+        btnMin = New PictureBox()
+        appLogo = New PictureBox()
+        Panel1 = New Panel()
+        Panel2 = New Panel()
+        btnDash = New PictureBox()
+        btnScan = New PictureBox()
+        btnTool = New PictureBox()
+        btnLog = New PictureBox()
+        btnSettings = New PictureBox()
+        selectionThingy = New PictureBox()
+        FrmTools1 = New frmTools()
+        transitionPic = New PictureBox()
+        CtlDashboard1 = New ctlDashboard()
+        CtlScanning1 = New ctlScanning()
+        mainPanel.SuspendLayout()
         topPanel.SuspendLayout()
-        CType(ludiLogo, ComponentModel.ISupportInitialize).BeginInit()
-        CType(closeButton, ComponentModel.ISupportInitialize).BeginInit()
-        CType(minButton, ComponentModel.ISupportInitialize).BeginInit()
-        Panel2.SuspendLayout()
-        MainPanel.SuspendLayout()
+        CType(btnClose, ComponentModel.ISupportInitialize).BeginInit()
+        CType(btnMin, ComponentModel.ISupportInitialize).BeginInit()
+        CType(appLogo, ComponentModel.ISupportInitialize).BeginInit()
+        Panel1.SuspendLayout()
+        CType(btnDash, ComponentModel.ISupportInitialize).BeginInit()
+        CType(btnScan, ComponentModel.ISupportInitialize).BeginInit()
+        CType(btnTool, ComponentModel.ISupportInitialize).BeginInit()
+        CType(btnLog, ComponentModel.ISupportInitialize).BeginInit()
+        CType(btnSettings, ComponentModel.ISupportInitialize).BeginInit()
+        CType(selectionThingy, ComponentModel.ISupportInitialize).BeginInit()
+        CType(transitionPic, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' panelPanel
-        ' 
-        panelPanel.BackColor = Color.CornflowerBlue
-        panelPanel.BorderStyle = BorderStyle.FixedSingle
-        panelPanel.Controls.Add(settingButton)
-        panelPanel.Controls.Add(logButton)
-        panelPanel.Controls.Add(toolButton)
-        panelPanel.Controls.Add(scanButton)
-        panelPanel.Controls.Add(dashButton)
-        panelPanel.Controls.Add(slideThingy)
-        panelPanel.Controls.Add(topPanel)
-        panelPanel.Dock = DockStyle.Top
-        panelPanel.Location = New Point(0, 0)
-        panelPanel.Name = "panelPanel"
-        panelPanel.Size = New Size(1026, 100)
-        panelPanel.TabIndex = 0
-        ' 
-        ' settingButton
-        ' 
-        settingButton.BotColor = Color.CornflowerBlue
-        settingButton.Font = New Font("Gill Sans Ultra Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        settingButton.ForeColor = Color.Snow
-        settingButton.Location = New Point(906, 59)
-        settingButton.Name = "settingButton"
-        settingButton.Size = New Size(109, 23)
-        settingButton.TabIndex = 6
-        settingButton.Text = "Settings"
-        settingButton.TopColor = Color.CornflowerBlue
-        settingButton.UseVisualStyleBackColor = True
-        ' 
-        ' logButton
-        ' 
-        logButton.BotColor = Color.CornflowerBlue
-        logButton.Font = New Font("Gill Sans Ultra Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        logButton.ForeColor = Color.Snow
-        logButton.Location = New Point(768, 58)
-        logButton.Name = "logButton"
-        logButton.Size = New Size(123, 23)
-        logButton.TabIndex = 5
-        logButton.Text = "Event log"
-        logButton.TopColor = Color.CornflowerBlue
-        logButton.UseVisualStyleBackColor = True
-        ' 
-        ' toolButton
-        ' 
-        toolButton.BotColor = Color.CornflowerBlue
-        toolButton.Font = New Font("Gill Sans Ultra Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        toolButton.ForeColor = Color.Snow
-        toolButton.Location = New Point(331, 59)
-        toolButton.Name = "toolButton"
-        toolButton.Size = New Size(75, 23)
-        toolButton.TabIndex = 4
-        toolButton.Text = "Tools"
-        toolButton.TopColor = Color.CornflowerBlue
-        toolButton.UseVisualStyleBackColor = True
-        ' 
-        ' scanButton
-        ' 
-        scanButton.BotColor = Color.CornflowerBlue
-        scanButton.Font = New Font("Gill Sans Ultra Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        scanButton.ForeColor = Color.Snow
-        scanButton.Location = New Point(170, 58)
-        scanButton.Name = "scanButton"
-        scanButton.Size = New Size(140, 23)
-        scanButton.TabIndex = 3
-        scanButton.Text = "Scanning"
-        scanButton.TopColor = Color.CornflowerBlue
-        scanButton.UseVisualStyleBackColor = True
-        ' 
-        ' dashButton
-        ' 
-        dashButton.BotColor = Color.CornflowerBlue
-        dashButton.Font = New Font("Gill Sans Ultra Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        dashButton.ForeColor = Color.Snow
-        dashButton.Location = New Point(13, 59)
-        dashButton.Name = "dashButton"
-        dashButton.Size = New Size(139, 23)
-        dashButton.TabIndex = 2
-        dashButton.Text = "Dashboard"
-        dashButton.TopColor = Color.CornflowerBlue
-        dashButton.UseVisualStyleBackColor = True
-        ' 
-        ' slideThingy
-        ' 
-        slideThingy.BackColor = Color.Snow
-        slideThingy.Location = New Point(13, 83)
-        slideThingy.Name = "slideThingy"
-        slideThingy.Size = New Size(139, 10)
-        slideThingy.TabIndex = 1
-        slideThingy.TabStop = False
-        ' 
-        ' topPanel
-        ' 
-        topPanel.BackColor = Color.CornflowerBlue
-        topPanel.BorderStyle = BorderStyle.FixedSingle
-        topPanel.Controls.Add(ludiLogo)
-        topPanel.Controls.Add(closeButton)
-        topPanel.Controls.Add(minButton)
-        topPanel.Controls.Add(lblTitle)
-        topPanel.Dock = DockStyle.Top
-        topPanel.Location = New Point(0, 0)
-        topPanel.Name = "topPanel"
-        topPanel.Size = New Size(1024, 47)
-        topPanel.TabIndex = 0
-        ' 
-        ' ludiLogo
-        ' 
-        ludiLogo.BackColor = Color.Lime
-        ludiLogo.Location = New Point(3, 2)
-        ludiLogo.Name = "ludiLogo"
-        ludiLogo.Size = New Size(40, 40)
-        ludiLogo.SizeMode = PictureBoxSizeMode.Zoom
-        ludiLogo.TabIndex = 3
-        ludiLogo.TabStop = False
-        ' 
-        ' closeButton
-        ' 
-        closeButton.BackColor = Color.Transparent
-        closeButton.Image = CType(resources.GetObject("closeButton.Image"), Image)
-        closeButton.Location = New Point(979, 3)
-        closeButton.Name = "closeButton"
-        closeButton.Size = New Size(40, 40)
-        closeButton.SizeMode = PictureBoxSizeMode.Zoom
-        closeButton.TabIndex = 2
-        closeButton.TabStop = False
-        ' 
-        ' minButton
-        ' 
-        minButton.BackColor = Color.Transparent
-        minButton.Image = CType(resources.GetObject("minButton.Image"), Image)
-        minButton.Location = New Point(923, -1)
-        minButton.Name = "minButton"
-        minButton.Size = New Size(50, 50)
-        minButton.SizeMode = PictureBoxSizeMode.Zoom
-        minButton.TabIndex = 1
-        minButton.TabStop = False
-        ' 
-        ' lblTitle
-        ' 
-        lblTitle.AutoSize = True
-        lblTitle.Font = New Font("Gill Sans Ultra Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lblTitle.ForeColor = Color.Snow
-        lblTitle.Location = New Point(49, 10)
-        lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(162, 30)
-        lblTitle.TabIndex = 0
-        lblTitle.Text = "luDefender"
-        ' 
-        ' Panel2
-        ' 
-        Panel2.BorderStyle = BorderStyle.FixedSingle
-        Panel2.Controls.Add(MainPanel)
-        Panel2.Location = New Point(0, 0)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(1026, 706)
-        Panel2.TabIndex = 2
-        ' 
-        ' MainPanel
-        ' 
-        MainPanel.Controls.Add(CtlDashboard1)
-        MainPanel.Controls.Add(CtlScanning1)
-        MainPanel.Location = New Point(-1, 99)
-        MainPanel.Name = "MainPanel"
-        MainPanel.Size = New Size(1026, 606)
-        MainPanel.TabIndex = 0
-        ' 
-        ' CtlScanning1
-        ' 
-        CtlScanning1.BackColor = Color.Snow
-        CtlScanning1.Location = New Point(-1, 0)
-        CtlScanning1.Name = "CtlScanning1"
-        CtlScanning1.Size = New Size(1026, 606)
-        CtlScanning1.TabIndex = 1
-        ' 
-        ' CtlDashboard1
-        ' 
-        CtlDashboard1.BackColor = Color.Snow
-        CtlDashboard1.Location = New Point(-1, 0)
-        CtlDashboard1.Name = "CtlDashboard1"
-        CtlDashboard1.Size = New Size(1026, 606)
-        CtlDashboard1.TabIndex = 0
         ' 
         ' Timer1
         ' 
         Timer1.Interval = 25
         ' 
+        ' Timer2
+        ' 
+        Timer2.Interval = 1000
+        ' 
+        ' NotifyIcon1
+        ' 
+        NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), Icon)
+        NotifyIcon1.Text = "NotifyIcon1"
+        NotifyIcon1.Visible = True
+        ' 
+        ' mainPanel
+        ' 
+        mainPanel.BackColor = Color.Transparent
+        mainPanel.BorderStyle = BorderStyle.FixedSingle
+        mainPanel.Controls.Add(topPanel)
+        mainPanel.Controls.Add(Panel1)
+        mainPanel.Controls.Add(CtlDashboard1)
+        mainPanel.Controls.Add(CtlScanning1)
+        mainPanel.Controls.Add(FrmTools1)
+        mainPanel.Controls.Add(transitionPic)
+        mainPanel.Location = New Point(-1, 0)
+        mainPanel.Name = "mainPanel"
+        mainPanel.Size = New Size(1076, 764)
+        mainPanel.TabIndex = 0
+        ' 
+        ' topPanel
+        ' 
+        topPanel.BackColor = Color.Transparent
+        topPanel.Controls.Add(btnClose)
+        topPanel.Controls.Add(btnMin)
+        topPanel.Controls.Add(appLogo)
+        topPanel.Dock = DockStyle.Top
+        topPanel.Location = New Point(0, 0)
+        topPanel.Name = "topPanel"
+        topPanel.Size = New Size(1074, 82)
+        topPanel.TabIndex = 0
+        ' 
+        ' btnClose
+        ' 
+        btnClose.Image = My.Resources.Resources.closeButton
+        btnClose.Location = New Point(1015, 25)
+        btnClose.Name = "btnClose"
+        btnClose.Size = New Size(39, 39)
+        btnClose.SizeMode = PictureBoxSizeMode.Zoom
+        btnClose.TabIndex = 2
+        btnClose.TabStop = False
+        ' 
+        ' btnMin
+        ' 
+        btnMin.Image = My.Resources.Resources.minButton
+        btnMin.Location = New Point(954, 25)
+        btnMin.Name = "btnMin"
+        btnMin.Size = New Size(39, 39)
+        btnMin.SizeMode = PictureBoxSizeMode.Zoom
+        btnMin.TabIndex = 1
+        btnMin.TabStop = False
+        ' 
+        ' appLogo
+        ' 
+        appLogo.Image = My.Resources.Resources.appLogo
+        appLogo.Location = New Point(40, 19)
+        appLogo.Name = "appLogo"
+        appLogo.Size = New Size(140, 50)
+        appLogo.TabIndex = 0
+        appLogo.TabStop = False
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.Transparent
+        Panel1.Controls.Add(Panel2)
+        Panel1.Controls.Add(btnDash)
+        Panel1.Controls.Add(btnScan)
+        Panel1.Controls.Add(btnTool)
+        Panel1.Controls.Add(btnLog)
+        Panel1.Controls.Add(btnSettings)
+        Panel1.Controls.Add(selectionThingy)
+        Panel1.Location = New Point(0, 0)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(190, 764)
+        Panel1.TabIndex = 1
+        ' 
+        ' Panel2
+        ' 
+        Panel2.Location = New Point(187, 81)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(889, 683)
+        Panel2.TabIndex = 12
+        ' 
+        ' btnDash
+        ' 
+        btnDash.Image = My.Resources.Resources.dasboardTab
+        btnDash.Location = New Point(33, 102)
+        btnDash.Name = "btnDash"
+        btnDash.Size = New Size(113, 32)
+        btnDash.TabIndex = 4
+        btnDash.TabStop = False
+        ' 
+        ' btnScan
+        ' 
+        btnScan.Image = My.Resources.Resources.scanningTab
+        btnScan.Location = New Point(33, 150)
+        btnScan.Name = "btnScan"
+        btnScan.Size = New Size(113, 34)
+        btnScan.TabIndex = 3
+        btnScan.TabStop = False
+        ' 
+        ' btnTool
+        ' 
+        btnTool.Image = My.Resources.Resources.toolTab
+        btnTool.Location = New Point(33, 198)
+        btnTool.Name = "btnTool"
+        btnTool.Size = New Size(113, 32)
+        btnTool.TabIndex = 2
+        btnTool.TabStop = False
+        ' 
+        ' btnLog
+        ' 
+        btnLog.Image = My.Resources.Resources.logTab
+        btnLog.Location = New Point(33, 247)
+        btnLog.Name = "btnLog"
+        btnLog.Size = New Size(113, 33)
+        btnLog.TabIndex = 1
+        btnLog.TabStop = False
+        ' 
+        ' btnSettings
+        ' 
+        btnSettings.Image = My.Resources.Resources.settingsTab
+        btnSettings.Location = New Point(33, 295)
+        btnSettings.Name = "btnSettings"
+        btnSettings.Size = New Size(113, 33)
+        btnSettings.TabIndex = 0
+        btnSettings.TabStop = False
+        ' 
+        ' selectionThingy
+        ' 
+        selectionThingy.Image = My.Resources.Resources.selectionThingy1
+        selectionThingy.Location = New Point(115, 98)
+        selectionThingy.Name = "selectionThingy"
+        selectionThingy.Size = New Size(73, 50)
+        selectionThingy.TabIndex = 5
+        selectionThingy.TabStop = False
+        ' 
+        ' FrmTools1
+        ' 
+        FrmTools1.BackColor = Color.Transparent
+        FrmTools1.BackgroundImage = CType(resources.GetObject("FrmTools1.BackgroundImage"), Image)
+        FrmTools1.BackgroundImageLayout = ImageLayout.Center
+        FrmTools1.Location = New Point(186, 82)
+        FrmTools1.Name = "FrmTools1"
+        FrmTools1.Size = New Size(889, 683)
+        FrmTools1.TabIndex = 4
+        ' 
+        ' transitionPic
+        ' 
+        transitionPic.Image = My.Resources.Resources.bigPatch4
+        transitionPic.Location = New Point(187, 81)
+        transitionPic.Name = "transitionPic"
+        transitionPic.Size = New Size(889, 683)
+        transitionPic.TabIndex = 5
+        transitionPic.TabStop = False
+        ' 
+        ' CtlDashboard1
+        ' 
+        CtlDashboard1.BackColor = Color.Transparent
+        CtlDashboard1.BackgroundImage = CType(resources.GetObject("CtlDashboard1.BackgroundImage"), Image)
+        CtlDashboard1.BackgroundImageLayout = ImageLayout.Center
+        CtlDashboard1.Location = New Point(184, 80)
+        CtlDashboard1.Name = "CtlDashboard1"
+        CtlDashboard1.Size = New Size(889, 683)
+        CtlDashboard1.TabIndex = 2
+        ' 
+        ' CtlScanning1
+        ' 
+        CtlScanning1.BackColor = Color.Transparent
+        CtlScanning1.BackgroundImage = CType(resources.GetObject("CtlScanning1.BackgroundImage"), Image)
+        CtlScanning1.BackgroundImageLayout = ImageLayout.Center
+        CtlScanning1.Location = New Point(187, 84)
+        CtlScanning1.Name = "CtlScanning1"
+        CtlScanning1.Size = New Size(889, 683)
+        CtlScanning1.TabIndex = 3
+        ' 
         ' Main
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.Snow
-        ClientSize = New Size(1026, 706)
-        Controls.Add(panelPanel)
-        Controls.Add(Panel2)
+        BackColor = Color.FromArgb(CByte(22), CByte(18), CByte(47))
+        BackgroundImage = My.Resources.Resources.backGround
+        BackgroundImageLayout = ImageLayout.Center
+        ClientSize = New Size(1074, 764)
+        Controls.Add(mainPanel)
+        DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
         Name = "Main"
         Text = "Form1"
-        panelPanel.ResumeLayout(False)
-        CType(slideThingy, ComponentModel.ISupportInitialize).EndInit()
+        mainPanel.ResumeLayout(False)
         topPanel.ResumeLayout(False)
-        topPanel.PerformLayout()
-        CType(ludiLogo, ComponentModel.ISupportInitialize).EndInit()
-        CType(closeButton, ComponentModel.ISupportInitialize).EndInit()
-        CType(minButton, ComponentModel.ISupportInitialize).EndInit()
-        Panel2.ResumeLayout(False)
-        MainPanel.ResumeLayout(False)
+        CType(btnClose, ComponentModel.ISupportInitialize).EndInit()
+        CType(btnMin, ComponentModel.ISupportInitialize).EndInit()
+        CType(appLogo, ComponentModel.ISupportInitialize).EndInit()
+        Panel1.ResumeLayout(False)
+        CType(btnDash, ComponentModel.ISupportInitialize).EndInit()
+        CType(btnScan, ComponentModel.ISupportInitialize).EndInit()
+        CType(btnTool, ComponentModel.ISupportInitialize).EndInit()
+        CType(btnLog, ComponentModel.ISupportInitialize).EndInit()
+        CType(btnSettings, ComponentModel.ISupportInitialize).EndInit()
+        CType(selectionThingy, ComponentModel.ISupportInitialize).EndInit()
+        CType(transitionPic, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
-
-    Friend WithEvents panelPanel As Panel
-    Friend WithEvents topPanel As Panel
-    Friend WithEvents lblTitle As Label
-    Friend WithEvents closeButton As PictureBox
-    Friend WithEvents minButton As PictureBox
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents slideThingy As PictureBox
-    Friend WithEvents dashButton As myButton
-    Friend WithEvents toolButton As myButton
-    Friend WithEvents scanButton As myButton
-    Friend WithEvents settingButton As myButton
-    Friend WithEvents logButton As myButton
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents MainPanel As Panel
-    Friend WithEvents ludiLogo As PictureBox
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents NotifyIcon1 As NotifyIcon
+    Friend WithEvents mainPanel As Panel
+    Friend WithEvents topPanel As Panel
+    Friend WithEvents appLogo As PictureBox
+    Friend WithEvents btnClose As PictureBox
+    Friend WithEvents btnMin As PictureBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents btnSettings As PictureBox
+    Friend WithEvents btnDash As PictureBox
+    Friend WithEvents btnScan As PictureBox
+    Friend WithEvents btnTool As PictureBox
+    Friend WithEvents btnLog As PictureBox
+    Friend WithEvents selectionThingy As PictureBox
+    Friend WithEvents Panel2 As Panel
     Friend WithEvents CtlDashboard1 As ctlDashboard
     Friend WithEvents CtlScanning1 As ctlScanning
+    Friend WithEvents FrmTools1 As frmTools
+    Friend WithEvents transitionPic As PictureBox
 
 End Class

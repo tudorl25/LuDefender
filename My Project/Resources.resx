@@ -117,4 +117,122 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="appLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\appLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event log" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\Event log.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\Dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scanStatus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\scanStatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="files scanned list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\files scanned list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hash_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\hash_database.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="scanningTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\scanningTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lastScanLgo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\lastScanLgo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lilPatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\lilPatch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closeButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\closeButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scanning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\Scanning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\backGround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dasboardTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\dasboardTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filesScanned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\filesScanned.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settingsTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\settingsTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="statusSafeLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\statusSafeLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toolTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\toolTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\Tools.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filesScannedList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\filesScannedList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\logTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quickScanLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\quickScanLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="url checker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\url checker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="startScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\startScan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullScanLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\fullScanLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disable firewall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\enable\disable firewall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectionThingy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\selectionThingy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\minButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file shredder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\file shredder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weGotYourBackLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\weGotYourBackLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stopScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\stopScan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lilPatch3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\lilPatch3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bigPatch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\bigPatch4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enable firewall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\enable\enable firewall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="removeThem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\removeThem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="url_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\url_database.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="lilPatch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\lilPatch2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ignoreThem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\new stuff\ignoreThem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024_04_01_snorlax-22444885" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024_04_01_snorlax-22444885.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

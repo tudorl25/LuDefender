@@ -22,165 +22,286 @@ Partial Class ctlScanning
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        scheduledScanning = New DomainUpDown()
+        components = New ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ctlScanning))
         Panel1 = New Panel()
-        Label6 = New Label()
-        Label5 = New Label()
-        Label4 = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
         Panel2 = New Panel()
-        Panel3 = New Panel()
+        lblTimeElapsed = New Label()
+        lblPercent = New Label()
+        lblDangerous = New Label()
+        lblFileScanned = New Label()
+        lilRadar = New Label()
+        ImageList1 = New ImageList(components)
+        stopScan = New PictureBox()
+        PictureBox2 = New PictureBox()
         ListView1 = New ListView()
+        fileScanned = New ColumnHeader()
+        fileType = New ColumnHeader()
+        fileStatus = New ColumnHeader()
+        PictureBox1 = New PictureBox()
+        ListBox1 = New ListBox()
+        FolderBrowserDialog1 = New FolderBrowserDialog()
+        Timer1 = New Timer(components)
+        OpenFileDialog1 = New OpenFileDialog()
+        Timer2 = New Timer(components)
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
-        Panel3.SuspendLayout()
+        CType(stopScan, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' scheduledScanning
-        ' 
-        scheduledScanning.BackColor = Color.CornflowerBlue
-        scheduledScanning.BorderStyle = BorderStyle.FixedSingle
-        scheduledScanning.Font = New Font("Gill Sans Ultra Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        scheduledScanning.ForeColor = Color.Snow
-        scheduledScanning.Items.Add("Extra frequent scanning (once every 5 minutes)")
-        scheduledScanning.Items.Add("Frequent scanning (once every 10 minutes)")
-        scheduledScanning.Items.Add("Normal scanning (once every 30 minutes)")
-        scheduledScanning.Items.Add("Seldom scanning (once every 2 hour)")
-        scheduledScanning.Items.Add("Extra seldom scanning (once a day)")
-        scheduledScanning.Items.Add("OFF")
-        scheduledScanning.Location = New Point(405, 91)
-        scheduledScanning.Name = "scheduledScanning"
-        scheduledScanning.ReadOnly = True
-        scheduledScanning.Size = New Size(600, 31)
-        scheduledScanning.TabIndex = 3
-        scheduledScanning.Text = "Normal scanning (once every 30 minutes)"
-        scheduledScanning.TextAlign = HorizontalAlignment.Center
-        scheduledScanning.Wrap = True
         ' 
         ' Panel1
         ' 
-        Panel1.BorderStyle = BorderStyle.FixedSingle
+        Panel1.BackColor = Color.Transparent
+        Panel1.BackgroundImageLayout = ImageLayout.Center
         Panel1.Controls.Add(Panel2)
-        Panel1.Controls.Add(Label6)
-        Panel1.Controls.Add(Label5)
-        Panel1.Controls.Add(Label4)
-        Panel1.Controls.Add(Label3)
-        Panel1.Controls.Add(Label2)
-        Panel1.Controls.Add(scheduledScanning)
-        Panel1.Dock = DockStyle.Bottom
+        Panel1.Controls.Add(stopScan)
+        Panel1.Controls.Add(PictureBox2)
+        Panel1.Controls.Add(ListView1)
+        Panel1.Controls.Add(PictureBox1)
+        Panel1.Controls.Add(ListBox1)
         Panel1.Location = New Point(0, 0)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1026, 606)
+        Panel1.Size = New Size(889, 683)
         Panel1.TabIndex = 4
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Gill Sans Ultra Bold", 13F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label6.ForeColor = Color.DimGray
-        Label6.Location = New Point(584, 58)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(421, 26)
-        Label6.TabIndex = 8
-        Label6.Text = "Change how often we do these scans"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Gill Sans Ultra Bold", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label5.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        Label5.Location = New Point(13, 36)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(258, 29)
-        Label5.TabIndex = 7
-        Label5.Text = "Scheduled scanning"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Gill Sans Ultra Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label4.ForeColor = Color.DimGray
-        Label4.Location = New Point(13, 120)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(369, 23)
-        Label4.TabIndex = 6
-        Label4.Text = "to be assured of your devices safety"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Gill Sans Ultra Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label3.ForeColor = Color.DimGray
-        Label3.Location = New Point(13, 94)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(376, 23)
-        Label3.TabIndex = 5
-        Label3.Text = "background check-up scans in order"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Gill Sans Ultra Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.ForeColor = Color.DimGray
-        Label2.Location = New Point(13, 68)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(373, 23)
-        Label2.TabIndex = 4
-        Label2.Text = "luDefender is designed to do regular"
         ' 
         ' Panel2
         ' 
-        Panel2.BorderStyle = BorderStyle.FixedSingle
-        Panel2.Controls.Add(Panel3)
-        Panel2.Dock = DockStyle.Bottom
-        Panel2.Location = New Point(0, 179)
+        Panel2.BackgroundImage = My.Resources.Resources.scanStatus3
+        Panel2.BackgroundImageLayout = ImageLayout.Center
+        Panel2.Controls.Add(lblTimeElapsed)
+        Panel2.Controls.Add(lblPercent)
+        Panel2.Controls.Add(lblDangerous)
+        Panel2.Controls.Add(lblFileScanned)
+        Panel2.Controls.Add(lilRadar)
+        Panel2.Location = New Point(324, 392)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(1024, 425)
-        Panel2.TabIndex = 9
+        Panel2.Size = New Size(539, 220)
+        Panel2.TabIndex = 30
         ' 
-        ' Panel3
+        ' lblTimeElapsed
         ' 
-        Panel3.BackColor = Color.FromArgb(CByte(58), CByte(67), CByte(95))
-        Panel3.Controls.Add(ListView1)
-        Panel3.Location = New Point(384, 19)
-        Panel3.Name = "Panel3"
-        Panel3.Size = New Size(620, 380)
-        Panel3.TabIndex = 0
+        lblTimeElapsed.AutoSize = True
+        lblTimeElapsed.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblTimeElapsed.ForeColor = Color.White
+        lblTimeElapsed.Location = New Point(159, 88)
+        lblTimeElapsed.Name = "lblTimeElapsed"
+        lblTimeElapsed.Size = New Size(73, 54)
+        lblTimeElapsed.TabIndex = 22
+        lblTimeElapsed.Text = "00:00"
+        ' 
+        ' lblPercent
+        ' 
+        lblPercent.AutoSize = True
+        lblPercent.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblPercent.ForeColor = Color.White
+        lblPercent.Location = New Point(41, 129)
+        lblPercent.Name = "lblPercent"
+        lblPercent.Size = New Size(55, 54)
+        lblPercent.TabIndex = 21
+        lblPercent.Text = "0%"
+        ' 
+        ' lblDangerous
+        ' 
+        lblDangerous.AutoSize = True
+        lblDangerous.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDangerous.ForeColor = Color.White
+        lblDangerous.Location = New Point(257, 55)
+        lblDangerous.Name = "lblDangerous"
+        lblDangerous.Size = New Size(34, 54)
+        lblDangerous.TabIndex = 20
+        lblDangerous.Text = "0"
+        ' 
+        ' lblFileScanned
+        ' 
+        lblFileScanned.AutoSize = True
+        lblFileScanned.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblFileScanned.ForeColor = Color.White
+        lblFileScanned.Location = New Point(247, 19)
+        lblFileScanned.Name = "lblFileScanned"
+        lblFileScanned.Size = New Size(34, 54)
+        lblFileScanned.TabIndex = 19
+        lblFileScanned.Text = "0"
+        ' 
+        ' lilRadar
+        ' 
+        lilRadar.AutoSize = True
+        lilRadar.ImageIndex = 0
+        lilRadar.ImageList = ImageList1
+        lilRadar.Location = New Point(330, 8)
+        lilRadar.MaximumSize = New Size(256, 256)
+        lilRadar.MinimumSize = New Size(256, 256)
+        lilRadar.Name = "lilRadar"
+        lilRadar.Size = New Size(256, 256)
+        lilRadar.TabIndex = 24
+        ' 
+        ' ImageList1
+        ' 
+        ImageList1.ColorDepth = ColorDepth.Depth32Bit
+        ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), ImageListStreamer)
+        ImageList1.TransparentColor = Color.Transparent
+        ImageList1.Images.SetKeyName(0, "radar1.png")
+        ImageList1.Images.SetKeyName(1, "radar2.png")
+        ImageList1.Images.SetKeyName(2, "radar3.png")
+        ImageList1.Images.SetKeyName(3, "radar4.png")
+        ImageList1.Images.SetKeyName(4, "radar5.png")
+        ImageList1.Images.SetKeyName(5, "radar6.png")
+        ImageList1.Images.SetKeyName(6, "radar7.png")
+        ImageList1.Images.SetKeyName(7, "radar8.png")
+        ImageList1.Images.SetKeyName(8, "radar9.png")
+        ImageList1.Images.SetKeyName(9, "radar10.png")
+        ImageList1.Images.SetKeyName(10, "radar11.png")
+        ImageList1.Images.SetKeyName(11, "radar12.png")
+        ImageList1.Images.SetKeyName(12, "radar13.png")
+        ImageList1.Images.SetKeyName(13, "radar14.png")
+        ImageList1.Images.SetKeyName(14, "radar15.png")
+        ImageList1.Images.SetKeyName(15, "radar16.png")
+        ImageList1.Images.SetKeyName(16, "radar17.png")
+        ImageList1.Images.SetKeyName(17, "radar18.png")
+        ImageList1.Images.SetKeyName(18, "radar19.png")
+        ImageList1.Images.SetKeyName(19, "radar20.png")
+        ImageList1.Images.SetKeyName(20, "radar21.png")
+        ImageList1.Images.SetKeyName(21, "radar22.png")
+        ImageList1.Images.SetKeyName(22, "radar23.png")
+        ImageList1.Images.SetKeyName(23, "radar24.png")
+        ImageList1.Images.SetKeyName(24, "radar25.png")
+        ImageList1.Images.SetKeyName(25, "radar26.png")
+        ImageList1.Images.SetKeyName(26, "radar27.png")
+        ImageList1.Images.SetKeyName(27, "radar28.png")
+        ImageList1.Images.SetKeyName(28, "radar29.png")
+        ImageList1.Images.SetKeyName(29, "radar30.png")
+        ImageList1.Images.SetKeyName(30, "radar31.png")
+        ImageList1.Images.SetKeyName(31, "radar32.png")
+        ImageList1.Images.SetKeyName(32, "radar33.png")
+        ImageList1.Images.SetKeyName(33, "radar34.png")
+        ImageList1.Images.SetKeyName(34, "radar35.png")
+        ImageList1.Images.SetKeyName(35, "radar36.png")
+        ' 
+        ' stopScan
+        ' 
+        stopScan.Image = My.Resources.Resources.stopScan
+        stopScan.Location = New Point(44, 511)
+        stopScan.Name = "stopScan"
+        stopScan.Size = New Size(269, 101)
+        stopScan.TabIndex = 28
+        stopScan.TabStop = False
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.BackColor = Color.Transparent
+        PictureBox2.Image = My.Resources.Resources.startScan
+        PictureBox2.Location = New Point(44, 392)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(273, 100)
+        PictureBox2.TabIndex = 22
+        PictureBox2.TabStop = False
         ' 
         ' ListView1
         ' 
-        ListView1.BackColor = Color.Snow
-        ListView1.Location = New Point(18, 14)
+        ListView1.Alignment = ListViewAlignment.Left
+        ListView1.BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
+        ListView1.BackgroundImage = My.Resources.Resources.filesScannedList
+        ListView1.BorderStyle = BorderStyle.None
+        ListView1.Columns.AddRange(New ColumnHeader() {fileScanned, fileType, fileStatus})
+        ListView1.Font = New Font("Moulpali", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ListView1.ForeColor = Color.White
+        ListView1.GridLines = True
+        ListView1.HeaderStyle = ColumnHeaderStyle.Nonclickable
+        ListView1.Location = New Point(82, 52)
         ListView1.Name = "ListView1"
-        ListView1.Size = New Size(584, 350)
+        ListView1.Size = New Size(732, 250)
         ListView1.TabIndex = 0
         ListView1.UseCompatibleStateImageBehavior = False
+        ListView1.View = View.List
+        ' 
+        ' fileScanned
+        ' 
+        fileScanned.Text = "File scanned"
+        fileScanned.Width = 580
+        ' 
+        ' fileType
+        ' 
+        fileType.Text = "File type"
+        fileType.Width = 75
+        ' 
+        ' fileStatus
+        ' 
+        fileStatus.Text = "File status"
+        fileStatus.Width = 100
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackgroundImageLayout = ImageLayout.Center
+        PictureBox1.Image = My.Resources.Resources.filesScanned
+        PictureBox1.Location = New Point(44, 3)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(815, 353)
+        PictureBox1.TabIndex = 29
+        PictureBox1.TabStop = False
+        ' 
+        ' ListBox1
+        ' 
+        ListBox1.BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
+        ListBox1.BorderStyle = BorderStyle.None
+        ListBox1.FormattingEnabled = True
+        ListBox1.ItemHeight = 15
+        ListBox1.Location = New Point(0, 0)
+        ListBox1.Name = "ListBox1"
+        ListBox1.Size = New Size(120, 30)
+        ListBox1.TabIndex = 27
+        ListBox1.Visible = False
+        ' 
+        ' Timer1
+        ' 
+        Timer1.Interval = 50
+        ' 
+        ' OpenFileDialog1
+        ' 
+        OpenFileDialog1.FileName = "OpenFileDialog1"
+        ' 
+        ' Timer2
+        ' 
+        Timer2.Interval = 10
         ' 
         ' ctlScanning
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.Snow
+        BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
+        BackgroundImage = My.Resources.Resources.bigPatch4
+        BackgroundImageLayout = ImageLayout.Center
         Controls.Add(Panel1)
+        DoubleBuffered = True
         Name = "ctlScanning"
-        Size = New Size(1026, 606)
+        Size = New Size(889, 683)
         Panel1.ResumeLayout(False)
-        Panel1.PerformLayout()
         Panel2.ResumeLayout(False)
-        Panel3.ResumeLayout(False)
+        Panel2.PerformLayout()
+        CType(stopScan, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
-    Friend WithEvents scheduledScanning As DomainUpDown
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Panel3 As Panel
+    Friend WithEvents lblFileScanned As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents lblDangerous As Label
+    Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents ListBox1 As ListBox
     Friend WithEvents ListView1 As ListView
+    Friend WithEvents fileScanned As ColumnHeader
+    Friend WithEvents fileType As ColumnHeader
+    Friend WithEvents fileStatus As ColumnHeader
+    Friend WithEvents stopScan As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents lblTimeElapsed As Label
+    Friend WithEvents lblPercent As Label
+    Friend WithEvents ImageList1 As ImageList
+    Friend WithEvents lilRadar As Label
+    Friend WithEvents Timer2 As Timer
 
 End Class
