@@ -101,6 +101,30 @@ Namespace My
                 Me("dateOfLastSessionScan") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property englishEnabled() As Boolean
+            Get
+                Return CType(Me("englishEnabled"),Boolean)
+            End Get
+            Set
+                Me("englishEnabled") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("2")>  _
+        Public Property startupMode() As Integer
+            Get
+                Return CType(Me("startupMode"),Integer)
+            End Get
+            Set
+                Me("startupMode") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

@@ -1,0 +1,6 @@
+Extra frequent scanning (once every 10 minutes)
+Frequent scanning (once every 30 minutes)
+Normal scanning (once an hour)
+Seldom scanning (once every 3 hours)
+Extra seldom scanning (once a day)
+OFF

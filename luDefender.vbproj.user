@@ -4,6 +4,9 @@
     <Compile Update="Controls\ctlDashboard.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\ctlEventLog.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Controls\ctlScanning.vb">
       <SubType>UserControl</SubType>
     </Compile>

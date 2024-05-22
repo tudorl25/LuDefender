@@ -14,5 +14,11 @@
     <Setting Name="dateOfLastSessionScan" Type="System.String" Scope="User">
       <Value Profile="(Default)">2024-05-16 14:34:56</Value>
     </Setting>
+    <Setting Name="englishEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="startupMode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
