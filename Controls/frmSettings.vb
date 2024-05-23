@@ -1,16 +1,56 @@
 ﻿Public Class frmSettings
 
     Private blueI As Integer = 2
-    Private blueList As String() = {"EXTRA FREQUENT MODE (once every 10 minutes)", "FREQUENT MODE (once every 30 minutes)", "NORMAL MODE (once an hour)", "SELDOM MODE (once every 3 hours)", "EXTRA SELDOM MODE (once a day)", "OFF"}
+    Private blueList As String()
 
     Private redI As Integer = 0
-    Private redList As String() = {"ENGLISH MODE", "MOD ROMÂNĂ"}
+    Private redList As String() = {"ENGLISH MODE", "MOD ROMANA"}
+
 
     Private purpleI As Integer = 2
-    Private purpleList As String() = {"START NORMAL", "START MINIMIZED", "OFF"}
+    Private purpleList As String()
 
     Private Sub frmSettings_Load(sender As Object, e As EventArgs) Handles Me.Load
-        'scheduledScanning.SelectedIndex = My.Settings.scheduledScanMode
+        changeOnLanguage()
+        Select Case My.Settings.scheduledScanMode
+            Case 10
+                blueI = 0
+            Case 30
+                blueI = 1
+            Case 60
+                blueI = 2
+            Case 180
+                blueI = 3
+            Case 1440
+                blueI = 4
+            Case -1
+                blueI = 5
+        End Select
+        'lblScheduled.Text = blueList(blueI)
+        'purpleI = My.Settings.startupMode
+        'lblStartup.Text = purpleList(purpleI)
+        lblLanguage.Text = redList(redI)
+    End Sub
+
+    Private Sub changeOnLanguage()
+        If My.Settings.englishEnabled = True Then
+            PictureBox1.BackgroundImage = My.Resources.settingScheduledScanning
+            PictureBox2.BackgroundImage = My.Resources.settingDisplayedLanguage
+            PictureBox3.BackgroundImage = My.Resources.settingRunOnStartup
+            redI = 0
+            purpleList = {"START NORMAL", "START MINIMIZED", "OFF"}
+            blueList = {"EXTRA FREQUENT MODE (once every 10 minutes)", "FREQUENT MODE (once every 30 minutes)", "NORMAL MODE (once an hour)", "SELDOM MODE (once every 3 hours)", "EXTRA SELDOM MODE (once a day)", "OFF"}
+        Else
+            PictureBox1.BackgroundImage = My.Resources.RO_settingScheduledScanning
+            PictureBox2.BackgroundImage = My.Resources.RO_settingDisplayedLanguage
+            PictureBox3.BackgroundImage = My.Resources.RO_settingRunOnStartup
+            redI = 1
+            purpleList = {"LANSARE NORMAL", "LANSARE MINIMIZAT", "OPRIT"}
+            blueList = {"MOD EXTRA FRECVENT (o data la 10 minute)", "MOD FRECVENT (o data la 30 de minute)", "MOD NORMAL (o data pe ora)", "MOD RAR (o data la 3 ore)", "MOD EXTRA RAR (o data pe zi)", "OPRIT"}
+        End If
+        purpleI = My.Settings.startupMode
+        lblStartup.Text = purpleList(purpleI)
+        lblScheduled.Text = blueList(blueI)
     End Sub
 
 
@@ -37,6 +77,7 @@
                 My.Settings.scheduledScanMode = -1
         End Select
         My.Settings.Save()
+
     End Sub
 
     Private Sub blueDown_Click(sender As Object, e As EventArgs) Handles blueDown.MouseDown
@@ -71,11 +112,12 @@
         End If
         lblLanguage.Text = redList(redI)
         If redI = 0 Then
-            My.Settings.englishEnabled = False
-        Else
             My.Settings.englishEnabled = True
+        Else
+            My.Settings.englishEnabled = False
         End If
         My.Settings.Save()
+        changeOnLanguage()
     End Sub
     Private Sub redDown_Click(sender As Object, e As EventArgs) Handles redDown.MouseDown
         If redI = 0 Then
@@ -85,11 +127,13 @@
         End If
         lblLanguage.Text = redList(redI)
         If redI = 0 Then
-            My.Settings.englishEnabled = False
-        Else
             My.Settings.englishEnabled = True
+        Else
+            My.Settings.englishEnabled = False
         End If
+
         My.Settings.Save()
+        changeOnLanguage()
     End Sub
 
     Private Sub purpleUp_Click(sender As Object, e As EventArgs) Handles purpleUp.MouseDown
@@ -113,4 +157,7 @@
         My.Settings.startupMode = purpleI
         My.Settings.Save()
     End Sub
+
+
+
 End Class

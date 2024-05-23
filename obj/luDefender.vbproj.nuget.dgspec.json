@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj": {}
+    "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj": {}
   },
   "projects": {
-    "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj": {
+    "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj",
+        "projectUniqueName": "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj",
         "projectName": "luDefender",
-        "projectPath": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj",
+        "projectPath": "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj",
         "packagesPath": "C:\\Users\\tudor\\.nuget\\packages\\",
         "outputPath": "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\obj\\",
         "projectStyle": "PackageReference",

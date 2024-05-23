@@ -89,25 +89,25 @@ Partial Class urlCheck
         ' 
         ' lblUrl
         ' 
-        lblUrl.AutoSize = True
         lblUrl.Font = New Font("Moulpali", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblUrl.ForeColor = Color.White
-        lblUrl.Location = New Point(79, 347)
+        lblUrl.Location = New Point(12, 347)
         lblUrl.Name = "lblUrl"
-        lblUrl.Size = New Size(203, 42)
+        lblUrl.Size = New Size(373, 42)
         lblUrl.TabIndex = 3
         lblUrl.Text = "http://www.website.com"
+        lblUrl.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' lblState2
         ' 
-        lblState2.AutoSize = True
         lblState2.Font = New Font("Moulpali", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblState2.ForeColor = Color.White
-        lblState2.Location = New Point(56, 379)
+        lblState2.Location = New Point(12, 379)
         lblState2.Name = "lblState2"
-        lblState2.Size = New Size(273, 42)
+        lblState2.Size = New Size(373, 42)
         lblState2.TabIndex = 4
         lblState2.Text = "poses any threat to your device..."
+        lblState2.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label3
         ' 
@@ -120,14 +120,14 @@ Partial Class urlCheck
         ' 
         ' lblState1
         ' 
-        lblState1.AutoSize = True
         lblState1.Font = New Font("Moulpali", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblState1.ForeColor = Color.White
-        lblState1.Location = New Point(38, 318)
+        lblState1.Location = New Point(12, 318)
         lblState1.Name = "lblState1"
-        lblState1.Size = New Size(299, 42)
+        lblState1.Size = New Size(373, 42)
         lblState1.TabIndex = 1
         lblState1.Text = "STATUS: Trying to determine whether"
+        lblState1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' lilRadar
         ' 

@@ -47,7 +47,8 @@ Partial Class frmSettings
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Image = My.Resources.Resources.settingScheduledScanning
+        PictureBox1.BackgroundImage = My.Resources.Resources.settingScheduledScanning
+        PictureBox1.BackgroundImageLayout = ImageLayout.Center
         PictureBox1.Location = New Point(47, 3)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(793, 190)
@@ -56,7 +57,8 @@ Partial Class frmSettings
         ' 
         ' PictureBox2
         ' 
-        PictureBox2.Image = My.Resources.Resources.settingDisplayedLanguage
+        PictureBox2.BackgroundImage = My.Resources.Resources.settingDisplayedLanguage
+        PictureBox2.BackgroundImageLayout = ImageLayout.Center
         PictureBox2.Location = New Point(47, 219)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(793, 190)
@@ -65,7 +67,8 @@ Partial Class frmSettings
         ' 
         ' PictureBox3
         ' 
-        PictureBox3.Image = My.Resources.Resources.settingRunOnStartup
+        PictureBox3.BackgroundImage = My.Resources.Resources.settingRunOnStartup
+        PictureBox3.BackgroundImageLayout = ImageLayout.Center
         PictureBox3.Location = New Point(47, 435)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(793, 190)
@@ -75,7 +78,7 @@ Partial Class frmSettings
         ' blueUp
         ' 
         blueUp.Image = My.Resources.Resources.blueUp
-        blueUp.Location = New Point(785, 22)
+        blueUp.Location = New Point(785, 23)
         blueUp.Name = "blueUp"
         blueUp.Size = New Size(33, 33)
         blueUp.TabIndex = 3
@@ -84,7 +87,7 @@ Partial Class frmSettings
         ' blueDown
         ' 
         blueDown.Image = My.Resources.Resources.blueDown
-        blueDown.Location = New Point(785, 55)
+        blueDown.Location = New Point(785, 56)
         blueDown.Name = "blueDown"
         blueDown.Size = New Size(33, 33)
         blueDown.TabIndex = 4
@@ -93,7 +96,7 @@ Partial Class frmSettings
         ' redUp
         ' 
         redUp.Image = My.Resources.Resources.redUp
-        redUp.Location = New Point(785, 238)
+        redUp.Location = New Point(785, 252)
         redUp.Name = "redUp"
         redUp.Size = New Size(33, 33)
         redUp.TabIndex = 5
@@ -102,7 +105,7 @@ Partial Class frmSettings
         ' redDown
         ' 
         redDown.Image = My.Resources.Resources.redDown
-        redDown.Location = New Point(785, 271)
+        redDown.Location = New Point(785, 285)
         redDown.Name = "redDown"
         redDown.Size = New Size(33, 33)
         redDown.TabIndex = 6
@@ -111,7 +114,7 @@ Partial Class frmSettings
         ' purpleDown
         ' 
         purpleDown.Image = My.Resources.Resources.purpleDown
-        purpleDown.Location = New Point(785, 486)
+        purpleDown.Location = New Point(785, 500)
         purpleDown.Name = "purpleDown"
         purpleDown.Size = New Size(33, 33)
         purpleDown.TabIndex = 8
@@ -120,7 +123,7 @@ Partial Class frmSettings
         ' purpleUp
         ' 
         purpleUp.Image = My.Resources.Resources.purpleUp
-        purpleUp.Location = New Point(785, 453)
+        purpleUp.Location = New Point(785, 467)
         purpleUp.Name = "purpleUp"
         purpleUp.Size = New Size(33, 33)
         purpleUp.TabIndex = 7
@@ -130,7 +133,7 @@ Partial Class frmSettings
         ' 
         lblScheduled.Font = New Font("Moulpali", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblScheduled.ForeColor = Color.White
-        lblScheduled.Location = New Point(451, 34)
+        lblScheduled.Location = New Point(451, 35)
         lblScheduled.Name = "lblScheduled"
         lblScheduled.Size = New Size(316, 40)
         lblScheduled.TabIndex = 12
@@ -141,7 +144,7 @@ Partial Class frmSettings
         ' 
         lblLanguage.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblLanguage.ForeColor = Color.White
-        lblLanguage.Location = New Point(450, 252)
+        lblLanguage.Location = New Point(451, 264)
         lblLanguage.Name = "lblLanguage"
         lblLanguage.Size = New Size(316, 36)
         lblLanguage.TabIndex = 13
@@ -152,7 +155,7 @@ Partial Class frmSettings
         ' 
         lblStartup.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblStartup.ForeColor = Color.White
-        lblStartup.Location = New Point(451, 471)
+        lblStartup.Location = New Point(451, 479)
         lblStartup.Name = "lblStartup"
         lblStartup.Size = New Size(316, 36)
         lblStartup.TabIndex = 14

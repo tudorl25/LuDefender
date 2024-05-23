@@ -23,33 +23,33 @@ Partial Class ctlEventLog
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Panel1 = New Panel()
-        detectedThreats = New ListBox()
+        eventLog = New ListBox()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Panel1
         ' 
-        Panel1.BackgroundImage = My.Resources.Resources.eventLogWallp1
+        Panel1.BackgroundImage = My.Resources.Resources.Event_log1
         Panel1.BackgroundImageLayout = ImageLayout.Center
-        Panel1.Controls.Add(detectedThreats)
-        Panel1.Location = New Point(21, 15)
+        Panel1.Controls.Add(eventLog)
+        Panel1.Location = New Point(21, 3)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(827, 596)
+        Panel1.Size = New Size(827, 608)
         Panel1.TabIndex = 1
         ' 
-        ' detectedThreats
+        ' eventLog
         ' 
-        detectedThreats.BackColor = Color.FromArgb(CByte(40), CByte(35), CByte(70))
-        detectedThreats.BorderStyle = BorderStyle.None
-        detectedThreats.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        detectedThreats.ForeColor = Color.White
-        detectedThreats.FormattingEnabled = True
-        detectedThreats.ItemHeight = 46
-        detectedThreats.Location = New Point(56, 118)
-        detectedThreats.Name = "detectedThreats"
-        detectedThreats.RightToLeft = RightToLeft.No
-        detectedThreats.Size = New Size(726, 414)
-        detectedThreats.TabIndex = 1
+        eventLog.BackColor = Color.FromArgb(CByte(40), CByte(35), CByte(70))
+        eventLog.BorderStyle = BorderStyle.None
+        eventLog.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        eventLog.ForeColor = Color.White
+        eventLog.FormattingEnabled = True
+        eventLog.ItemHeight = 46
+        eventLog.Location = New Point(56, 118)
+        eventLog.Name = "eventLog"
+        eventLog.RightToLeft = RightToLeft.No
+        eventLog.Size = New Size(726, 414)
+        eventLog.TabIndex = 1
         ' 
         ' ctlEventLog
         ' 
@@ -67,6 +67,6 @@ Partial Class ctlEventLog
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents detectedThreats As ListBox
+    Friend WithEvents eventLog As ListBox
 
 End Class

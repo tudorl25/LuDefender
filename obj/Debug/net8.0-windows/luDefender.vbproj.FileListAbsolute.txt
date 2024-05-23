@@ -24,3 +24,4 @@ E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmFirewall
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmTools.resources
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.frmSettings.resources
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.urlCheck.resources
+E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.ctlEventLog.resources

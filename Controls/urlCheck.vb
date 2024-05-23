@@ -30,22 +30,40 @@ Public Class urlCheck
         If lilRadar.ImageIndex = 35 Then
             If i = 1 Then
                 If TargetDb.Contains(frmTools.urlToCheck) Then
-                    lblState1.Text = "STATE: Website with the url"
-                    lblState1.ForeColor = Color.Red
-                    lblUrl.Text = frmTools.urlToCheck
-                    lblState1.ForeColor = Color.Red
-                    lblState2.Text = "is dangerous and should be avoided"
-                    lblState1.ForeColor = Color.Red
+                    If My.Settings.englishEnabled Then
+                        lblState1.Text = "STATE: Website with the URL"
+                        lblState1.ForeColor = Color.Red
+                        lblUrl.Text = frmTools.urlToCheck
+                        lblUrl.ForeColor = Color.Red
+                        lblState2.Text = "is dangerous and should be avoided"
+                        lblState2.ForeColor = Color.Red
+                    Else
+                        lblState1.Text = "STARE: Site-ul web cu URL"
+                        lblState1.ForeColor = Color.Red
+                        lblUrl.Text = frmTools.urlToCheck
+                        lblUrl.ForeColor = Color.Red
+                        lblState2.Text = "este periculos si trebuie evitat"
+                        lblState2.ForeColor = Color.Red
+                    End If
                 Else
-                    lblState1.Text = "STATE: Website with the url"
-                    lblState1.ForeColor = Color.Green
-                    lblUrl.Text = frmTools.urlToCheck
-                    lblState1.ForeColor = Color.Green
-                    lblState2.Text = "is clean and safe to browse"
-                    lblState1.ForeColor = Color.Green
+                    If My.Settings.englishEnabled Then
+                        lblState1.Text = "STATE: Website with the URL"
+                        lblState1.ForeColor = Color.Green
+                        lblUrl.Text = frmTools.urlToCheck
+                        lblUrl.ForeColor = Color.Green
+                        lblState2.Text = "is clean and safe to browse"
+                        lblState2.ForeColor = Color.Green
+                    Else
+                        lblState1.Text = "STARE: Site-ul web cu URL"
+                        lblState1.ForeColor = Color.Green
+                        lblUrl.Text = frmTools.urlToCheck
+                        lblUrl.ForeColor = Color.Green
+                        lblState2.Text = "este sigur"
+                        lblState2.ForeColor = Color.Green
+                    End If
                 End If
 
-                i = 0
+                    i = 0
                 Timer1.Stop()
             Else
                 i += 1
@@ -61,8 +79,8 @@ Public Class urlCheck
         Timer1.Start()
         lblUrl.Text = frmTools.urlToCheck
         lblState1.ForeColor = Color.White
-        lblState1.ForeColor = Color.White
-        lblState1.ForeColor = Color.White
+        lblUrl.ForeColor = Color.White
+        lblState2.ForeColor = Color.White
         TargetDb = databaseTxt.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries)
     End Sub
 End Class
