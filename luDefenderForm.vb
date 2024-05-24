@@ -36,6 +36,8 @@ Public Class Main
     End Sub
 
     Private Sub closeButton_Click(sender As Object, e As EventArgs) Handles btnClose.MouseDown
+        Dim data As DatabaseManager = New DatabaseManager()
+        data.Update(My.Settings.userEmail, My.Settings.userPassword)
         Me.Hide()
     End Sub
 
@@ -102,7 +104,7 @@ Public Class Main
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         If Me.Visible Then
-            If My.Settings.dateOfLastScan IsNot "xx" Then
+            If Not (My.Settings.dateOfLastScan = "xx") Then
                 lastTime = DateTime.Parse(My.Settings.dateOfLastScan)
 
                 Dim diff As TimeSpan = DateTime.Now - lastTime
@@ -122,11 +124,11 @@ Public Class Main
                     CtlDashboard1.lblMinutes.Text = ""
                 End If
             End If
-
+            '0.6 stanga
         End If
 
 
-            If ctlScanning.active = False And My.Settings.scheduledScanMode > -1 Then
+        If ctlScanning.active = False And My.Settings.scheduledScanMode > -1 Then
             lastTimeTwo = DateTime.Parse(My.Settings.dateOfLastSessionScan)
             Dim second_diff As TimeSpan = DateTime.Now - lastTimeTwo
             minutes = second_diff.Minutes + second_diff.Hours * 60 + second_diff.Days * 1440
@@ -145,12 +147,14 @@ Public Class Main
             btnTool.Image = My.Resources.toolTab
             btnLog.Image = My.Resources.logTab
             btnSettings.Image = My.Resources.settingsTab
+            btnAccount.Image = My.Resources.accountTab
         Else
             btnDash.Image = My.Resources.RO_dasboardTab
             btnScan.Image = My.Resources.RO_scanningTab
             btnTool.Image = My.Resources.RO_toolTab
             btnLog.Image = My.Resources.RO_logTab
             btnSettings.Image = My.Resources.RO_settingsTab
+            btnAccount.Image = My.Resources.RO_accountTab
         End If
         CtlDashboard1.changeOnLanguage()
         CtlScanning1.changeOnLanguage()
@@ -189,7 +193,8 @@ Public Class Main
         CtlScanning1.BringToFront()
     End Sub
 
-    Private Sub mainPanel_Paint(sender As Object, e As PaintEventArgs)
 
+    Private Sub btnAccount_Click(sender As Object, e As EventArgs) Handles btnAccount.Click
+        frmAccount.ShowDialog()
     End Sub
 End Class

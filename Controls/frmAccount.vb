@@ -22,4 +22,18 @@ Public Class frmAccount
     Public Shared Function ReleaseCapture() As Boolean
     End Function
 
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.MouseDown, Label1.MouseDown
+        CtlLogIn1.BringToFront()
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.MouseDown, Label2.MouseDown
+        CtlCreateNew1.BringToFront()
+    End Sub
+
+    Private Sub frmAccount_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.Text = "LuDefender - Account"
+        If Not (My.Settings.userEmail = "") Then
+            Label3.Text = "Account: " + My.Settings.userEmail
+        End If
+    End Sub
 End Class

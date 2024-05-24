@@ -1,81 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\",
+  "WorkspaceRootPath": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\databasemanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\databasemanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\frmaccount.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\frmaccount.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmaccount.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\frmaccount.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\frmaccount.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmaccount.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\ludefender.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefender.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\my project\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:my project\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|c:\\users\\admin\\documents\\github\\ludefender\\controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|e:\\folder tudor\\infoeducatie 2024\\ludefender\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\my project\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:my project\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\databasemanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\databasemanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\urlcheck.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\ludefender.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefender.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
@@ -86,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,37 +106,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ctlLogIn.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlLogIn.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlLogIn.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlLogIn.vb",
+              "RelativeToolTip": "Controls\\ctlLogIn.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-24T19:13:10.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ctlCreateNew.vb",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlCreateNew.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlCreateNew.vb",
               "RelativeDocumentMoniker": "Controls\\ctlCreateNew.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlCreateNew.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlCreateNew.vb",
               "RelativeToolTip": "Controls\\ctlCreateNew.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-24T18:06:42.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "DatabaseManager.vb",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\DatabaseManager.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\DatabaseManager.vb",
               "RelativeDocumentMoniker": "Controls\\DatabaseManager.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\DatabaseManager.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\DatabaseManager.vb",
               "RelativeToolTip": "Controls\\DatabaseManager.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-24T17:49:31.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T17:49:31.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "ctlCreateNew.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlCreateNew.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlCreateNew.vb",
               "RelativeDocumentMoniker": "Controls\\ctlCreateNew.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlCreateNew.vb [Design]",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlCreateNew.vb [Design]",
               "RelativeToolTip": "Controls\\ctlCreateNew.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-24T17:48:42.966Z",
@@ -140,11 +156,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ctlLogIn.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlLogIn.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlLogIn.vb",
               "RelativeDocumentMoniker": "Controls\\ctlLogIn.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlLogIn.vb [Design]",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlLogIn.vb [Design]",
               "RelativeToolTip": "Controls\\ctlLogIn.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-24T17:47:57.233Z",
@@ -152,24 +168,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "frmAccount.vb",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmAccount.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\frmAccount.vb",
               "RelativeDocumentMoniker": "Controls\\frmAccount.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmAccount.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\frmAccount.vb",
               "RelativeToolTip": "Controls\\frmAccount.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-24T17:13:12.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "frmAccount.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmAccount.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\frmAccount.vb",
               "RelativeDocumentMoniker": "Controls\\frmAccount.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmAccount.vb [Design]",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\frmAccount.vb [Design]",
               "RelativeToolTip": "Controls\\frmAccount.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-24T17:11:41.333Z",
@@ -179,9 +195,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "urlCheck.vb",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\urlCheck.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\urlCheck.vb",
               "RelativeDocumentMoniker": "Controls\\urlCheck.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\urlCheck.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\urlCheck.vb",
               "RelativeToolTip": "Controls\\urlCheck.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -190,11 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "urlCheck.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\urlCheck.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\urlCheck.vb",
               "RelativeDocumentMoniker": "Controls\\urlCheck.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\urlCheck.vb [Design]",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\urlCheck.vb [Design]",
               "RelativeToolTip": "Controls\\urlCheck.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-24T16:56:03.001Z",
@@ -202,83 +218,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ctlDashboard.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlDashboard.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlDashboard.vb",
               "RelativeDocumentMoniker": "Controls\\ctlDashboard.vb",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlDashboard.vb [Design]",
-              "RelativeToolTip": "Controls\\ctlDashboard.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-12T11:41:36.028Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-12T11:41:36.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "frmVirus.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Forms\\frmVirus.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Forms\\frmVirus.vb",
               "RelativeDocumentMoniker": "Forms\\frmVirus.vb",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Forms\\frmVirus.vb [Design]",
-              "RelativeToolTip": "Forms\\frmVirus.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-24T16:56:31.718Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-24T16:56:31.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "luDefender",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\luDefender.vbproj",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\luDefender.vbproj",
               "RelativeDocumentMoniker": "luDefender.vbproj",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\luDefender.vbproj",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\luDefender.vbproj",
               "RelativeToolTip": "luDefender.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2024-05-24T16:58:16.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T16:58:16.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmTools.vb [Design]",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\frmTools.vb",
+              "RelativeDocumentMoniker": "Controls\\frmTools.vb",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmTools.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-24T16:55:51.246Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "frmTools.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmTools.vb",
-              "RelativeDocumentMoniker": "Controls\\frmTools.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmTools.vb [Design]",
-              "RelativeToolTip": "Controls\\frmTools.vb [Design]",
+              "Title": "ctlScanning.vb [Design]",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlScanning.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlScanning.vb",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlScanning.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-24T16:55:51.246Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-12T09:08:54.716Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ctlScanning.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlScanning.vb",
-              "RelativeDocumentMoniker": "Controls\\ctlScanning.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlScanning.vb [Design]",
-              "RelativeToolTip": "Controls\\ctlScanning.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-12T09:08:54.716Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\My Project\\Resources.resx",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\My Project\\Resources.resx",
               "RelativeDocumentMoniker": "My Project\\Resources.resx",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\My Project\\Resources.resx",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\My Project\\Resources.resx",
               "RelativeToolTip": "My Project\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-24T16:58:28.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T16:58:28.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\My Project\\Settings.settings",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\My Project\\Settings.settings",
               "RelativeDocumentMoniker": "My Project\\Settings.settings",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\My Project\\Settings.settings",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\My Project\\Settings.settings",
               "RelativeToolTip": "My Project\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
               "WhenOpened": "2024-05-24T16:58:48.937Z",
@@ -286,48 +292,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "frmSettings.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmSettings.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\frmSettings.vb",
               "RelativeDocumentMoniker": "Controls\\frmSettings.vb",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\frmSettings.vb [Design]",
-              "RelativeToolTip": "Controls\\frmSettings.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-24T16:55:36.863Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-24T16:55:36.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ctlDashboard.vb",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlDashboard.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlDashboard.vb",
               "RelativeDocumentMoniker": "Controls\\ctlDashboard.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\Controls\\ctlDashboard.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\Controls\\ctlDashboard.vb",
               "RelativeToolTip": "Controls\\ctlDashboard.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-12T11:45:03.763Z",
+              "WhenOpened": "2024-05-12T11:45:03.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "luDefenderForm.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\luDefenderForm.vb",
+              "RelativeDocumentMoniker": "luDefenderForm.vb",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\luDefenderForm.vb",
+              "RelativeToolTip": "luDefenderForm.vb",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAWwCIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-11T13:30:25.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "luDefenderForm.vb",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\luDefenderForm.vb",
-              "RelativeDocumentMoniker": "luDefenderForm.vb",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\luDefenderForm.vb",
-              "RelativeToolTip": "luDefenderForm.vb",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAmwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-11T13:30:25.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
               "Title": "luDefenderForm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\LuDefender\\luDefenderForm.vb",
+              "DocumentMoniker": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\luDefenderForm.vb",
               "RelativeDocumentMoniker": "luDefenderForm.vb",
-              "ToolTip": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefenderForm.vb [Design]",
+              "ToolTip": "E:\\FOLDER TUDOR\\Infoeducatie 2024\\luDefender\\luDefenderForm.vb [Design]",
+              "RelativeToolTip": "luDefenderForm.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-05-08T16:28:27.491Z"
             }

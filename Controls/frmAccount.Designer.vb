@@ -24,9 +24,12 @@ Partial Class frmAccount
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmAccount))
         Panel2 = New Panel()
+        Label3 = New Label()
         PictureBox1 = New PictureBox()
         closeButton = New PictureBox()
         Panel1 = New Panel()
+        CtlLogIn1 = New ctlLogIn()
+        CtlCreateNew1 = New ctlCreateNew()
         PictureBox2 = New PictureBox()
         PictureBox3 = New PictureBox()
         Label1 = New Label()
@@ -34,6 +37,7 @@ Partial Class frmAccount
         Panel2.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(closeButton, ComponentModel.ISupportInitialize).BeginInit()
+        Panel1.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -41,13 +45,26 @@ Partial Class frmAccount
         ' Panel2
         ' 
         Panel2.BackColor = Color.Transparent
+        Panel2.Controls.Add(Label3)
         Panel2.Controls.Add(PictureBox1)
         Panel2.Controls.Add(closeButton)
         Panel2.Dock = DockStyle.Top
         Panel2.Location = New Point(0, 0)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(696, 47)
+        Panel2.Size = New Size(821, 47)
         Panel2.TabIndex = 4
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Moulpali", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = Color.White
+        Label3.Location = New Point(159, 8)
+        Label3.Name = "Label3"
+        Label3.RightToLeft = RightToLeft.No
+        Label3.Size = New Size(85, 36)
+        Label3.TabIndex = 10
+        Label3.Text = "No account"
         ' 
         ' PictureBox1
         ' 
@@ -63,7 +80,7 @@ Partial Class frmAccount
         ' 
         closeButton.BackColor = Color.Transparent
         closeButton.Image = CType(resources.GetObject("closeButton.Image"), Image)
-        closeButton.Location = New Point(757, 4)
+        closeButton.Location = New Point(778, 4)
         closeButton.Name = "closeButton"
         closeButton.Size = New Size(40, 40)
         closeButton.SizeMode = PictureBoxSizeMode.Zoom
@@ -72,16 +89,37 @@ Partial Class frmAccount
         ' 
         ' Panel1
         ' 
+        Panel1.BackColor = Color.Transparent
+        Panel1.Controls.Add(CtlLogIn1)
+        Panel1.Controls.Add(CtlCreateNew1)
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 47)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(696, 299)
+        Panel1.Size = New Size(821, 299)
         Panel1.TabIndex = 5
+        ' 
+        ' CtlLogIn1
+        ' 
+        CtlLogIn1.BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
+        CtlLogIn1.BackgroundImage = CType(resources.GetObject("CtlLogIn1.BackgroundImage"), Image)
+        CtlLogIn1.Location = New Point(56, 0)
+        CtlLogIn1.Name = "CtlLogIn1"
+        CtlLogIn1.Size = New Size(696, 299)
+        CtlLogIn1.TabIndex = 1
+        ' 
+        ' CtlCreateNew1
+        ' 
+        CtlCreateNew1.BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
+        CtlCreateNew1.BackgroundImage = CType(resources.GetObject("CtlCreateNew1.BackgroundImage"), Image)
+        CtlCreateNew1.Location = New Point(56, 0)
+        CtlCreateNew1.Name = "CtlCreateNew1"
+        CtlCreateNew1.Size = New Size(696, 299)
+        CtlCreateNew1.TabIndex = 0
         ' 
         ' PictureBox2
         ' 
         PictureBox2.Image = My.Resources.Resources.ignoreThem
-        PictureBox2.Location = New Point(50, 352)
+        PictureBox2.Location = New Point(104, 354)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(270, 86)
         PictureBox2.TabIndex = 6
@@ -90,7 +128,7 @@ Partial Class frmAccount
         ' PictureBox3
         ' 
         PictureBox3.Image = My.Resources.Resources.removeThem
-        PictureBox3.Location = New Point(341, 352)
+        PictureBox3.Location = New Point(395, 354)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(306, 86)
         PictureBox3.TabIndex = 7
@@ -101,7 +139,7 @@ Partial Class frmAccount
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(238))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(70, 371)
+        Label1.Location = New Point(124, 373)
         Label1.Name = "Label1"
         Label1.Size = New Size(234, 32)
         Label1.TabIndex = 8
@@ -112,7 +150,7 @@ Partial Class frmAccount
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(238))
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(363, 371)
+        Label2.Location = New Point(417, 373)
         Label2.Name = "Label2"
         Label2.Size = New Size(267, 32)
         Label2.TabIndex = 9
@@ -124,7 +162,7 @@ Partial Class frmAccount
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
         BackgroundImage = My.Resources.Resources.backGround
-        ClientSize = New Size(696, 450)
+        ClientSize = New Size(821, 450)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox3)
@@ -135,8 +173,10 @@ Partial Class frmAccount
         Name = "frmAccount"
         Text = "frmAccount"
         Panel2.ResumeLayout(False)
+        Panel2.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(closeButton, ComponentModel.ISupportInitialize).EndInit()
+        Panel1.ResumeLayout(False)
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
@@ -151,4 +191,7 @@ Partial Class frmAccount
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents CtlLogIn1 As ctlLogIn
+    Friend WithEvents CtlCreateNew1 As ctlCreateNew
+    Friend WithEvents Label3 As Label
 End Class

@@ -6,13 +6,35 @@ Public Class DatabaseManager
     Private Connect As New SqlConnection()
 
     Public Sub CreateNew(email As String, password As String)
-        Dim isSuccess As Boolean = AddNewUser(email, password, "", -1, "eng", 2, 1, "xx", 1)
+        Dim eng As String
+        Dim nr As Integer
+        Dim nr2 As Integer
+        If My.Settings.englishEnabled Then
+            eng = "eng"
+        Else
+            eng = "ro"
+        End If
+
+        If My.Settings.fireWallActive Then
+            nr = 1
+        Else
+            nr = 0
+        End If
+
+        If My.Settings.isSafe Then
+            nr2 = 1
+        Else
+            nr2 = 0
+        End If
+
+        Dim isSuccess As Boolean = AddNewUser(email, password, My.Settings.eventLog, My.Settings.scheduledScanMode, eng, My.Settings.startupMode, nr, My.Settings.dateOfLastScan, nr2)
+
 
         If isSuccess Then
-            MessageBox.Show("User added successfully.")
-        Else
-            MessageBox.Show("Failed to add user.")
-        End If
+                MessageBox.Show("User added successfully.")
+            Else
+                MessageBox.Show("Failed to add user.")
+            End If
     End Sub
 
     Function AddNewUser(email As String, password As String, eventlog As String, setScheduled As Integer, setLanguage As String, setStartup As Integer, firewall As Integer, dateOfLastScan As String, isSafe As Integer) As Boolean
@@ -53,6 +75,30 @@ Public Class DatabaseManager
             End Try
         End Using
     End Function
+
+    Public Sub Update(email As String, password As String)
+        Dim eng As String
+        Dim nr As Integer
+        Dim nr2 As Integer
+        If My.Settings.englishEnabled Then
+            eng = "eng"
+        Else
+            eng = "ro"
+        End If
+
+        If My.Settings.fireWallActive Then
+            nr = 1
+        Else
+            nr = 0
+        End If
+
+        If My.Settings.isSafe Then
+            nr2 = 1
+        Else
+            nr2 = 0
+        End If
+        UpdateUser(email, password, My.Settings.eventLog, My.Settings.scheduledScanMode, eng, My.Settings.startupMode, nr, My.Settings.dateOfLastScan, nr2)
+    End Sub
 
     Function UpdateUser(email As String, password As String, eventlog As String, setScheduled As Integer, setLanguage As String, setStartup As Integer, firewall As Integer, dateOfLastScan As String, isSafe As Integer) As Boolean
 
@@ -104,14 +150,28 @@ Public Class DatabaseManager
 
         If userInfo IsNot Nothing Then
             MessageBox.Show("Login successful.")
-            MessageBox.Show("eventlog: " & userInfo("eventlog"))
-            MessageBox.Show("setScheduled: " & userInfo("setScheduled"))
-            MessageBox.Show("setLanguage: " & userInfo("setLanguage"))
-            MessageBox.Show("setStartup: " & userInfo("setStartup"))
-            MessageBox.Show("firewall: " & userInfo("firewall"))
-            MessageBox.Show("dateOfLastScan: " & userInfo("dateOfLastScan"))
-            MessageBox.Show("isSafe: " & userInfo("isSafe"))
+            My.Settings.eventLog = userInfo("eventlog")
+            My.Settings.RO_eventLog = userInfo("eventlog")
+            My.Settings.scheduledScanMode = Convert.ToInt32(userInfo("setScheduled"))
+            If userInfo("setLanguage") = "eng" Then
+                My.Settings.englishEnabled = True
+            Else
+                My.Settings.englishEnabled = False
+            End If
 
+            My.Settings.startupMode = Convert.ToInt32(userInfo("setStartup"))
+            If userInfo("firewall") = "1" Then
+                My.Settings.fireWallActive = True
+            Else
+                My.Settings.englishEnabled = False
+            End If
+            My.Settings.dateOfLastScan = userInfo("dateOfLastScan")
+            If userInfo("isSafe") = "1" Then
+                My.Settings.isSafe = True
+            Else
+                My.Settings.isSafe = False
+            End If
+            My.Settings.Save()
         Else
             MessageBox.Show("Login failed. Invalid email or password.")
         End If

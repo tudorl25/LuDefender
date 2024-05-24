@@ -172,6 +172,30 @@ Namespace My
                 Me("RO_eventLog") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property userEmail() As String
+            Get
+                Return CType(Me("userEmail"),String)
+            End Get
+            Set
+                Me("userEmail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property userPassword() As String
+            Get
+                Return CType(Me("userPassword"),String)
+            End Get
+            Set
+                Me("userPassword") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
