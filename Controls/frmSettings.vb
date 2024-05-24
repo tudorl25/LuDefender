@@ -1,4 +1,6 @@
-﻿Public Class frmSettings
+﻿Imports Microsoft.Win32
+
+Public Class frmSettings
 
     Private blueI As Integer = 2
     Private blueList As String()
@@ -118,6 +120,7 @@
         End If
         My.Settings.Save()
         changeOnLanguage()
+        Main.changeOnLanguage()
     End Sub
     Private Sub redDown_Click(sender As Object, e As EventArgs) Handles redDown.MouseDown
         If redI = 0 Then
@@ -134,6 +137,7 @@
 
         My.Settings.Save()
         changeOnLanguage()
+        Main.changeOnLanguage()
     End Sub
 
     Private Sub purpleUp_Click(sender As Object, e As EventArgs) Handles purpleUp.MouseDown
@@ -145,6 +149,11 @@
         lblStartup.Text = purpleList(purpleI)
         My.Settings.startupMode = purpleI
         My.Settings.Save()
+        If purpleI = 2 Then
+            RemoveFromStartup("LuDefender")
+        Else
+            AddToStartup(Application.ExecutablePath, "LuDefender")
+        End If
     End Sub
 
     Private Sub purpleDown_Click(sender As Object, e As EventArgs) Handles purpleDown.MouseDown
@@ -156,8 +165,42 @@
         lblStartup.Text = purpleList(purpleI)
         My.Settings.startupMode = purpleI
         My.Settings.Save()
+        If purpleI = 2 Then
+            RemoveFromStartup("LuDefender")
+        Else
+            AddToStartup(Application.ExecutablePath, "LuDefender")
+        End If
     End Sub
 
+    Sub AddToStartup(ByVal exePath As String, ByVal appName As String)
+        Try
+            ' Open the registry key
+            Dim regKey As RegistryKey = Registry.CurrentUser.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True)
+
+            ' Add the value in the registry key
+            regKey.SetValue(appName, exePath)
+
+            regKey.Close()
+        Catch ex As Exception
+            Console.WriteLine("Error adding to startup: " & ex.Message)
+        End Try
+    End Sub
+
+    Sub RemoveFromStartup(ByVal appName As String)
+        Try
+            ' Open the registry key
+            Dim regKey As RegistryKey = Registry.CurrentUser.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True)
+
+            ' Check if the key exists and delete it
+            If regKey.GetValue(appName) IsNot Nothing Then
+                regKey.DeleteValue(appName)
+            End If
+
+            regKey.Close()
+        Catch ex As Exception
+            Console.WriteLine("Error removing from startup: " & ex.Message)
+        End Try
+    End Sub
 
 
 End Class

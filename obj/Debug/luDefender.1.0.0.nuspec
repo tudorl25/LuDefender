@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>luDefender</id>
+    <version>1.0.0</version>
+    <authors>luDefender</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/Res/new stuff/general stuff/appIco.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\FOLDER TUDOR\CYBER\luDefender\bin\Debug\net8.0-windows\luDefender.runtimeconfig.json" target="lib\net8.0-windows7.0\luDefender.runtimeconfig.json" />
+    <file src="E:\FOLDER TUDOR\CYBER\luDefender\bin\Debug\net8.0-windows\luDefender.dll" target="lib\net8.0-windows7.0\luDefender.dll" />
+    <file src="E:\FOLDER TUDOR\CYBER\luDefender\Res\new stuff\general stuff\appIco.ico" target="content\Res\new stuff\general stuff\appIco.ico" />
+    <file src="E:\FOLDER TUDOR\CYBER\luDefender\Res\new stuff\general stuff\appIco.ico" target="contentFiles\any\net8.0-windows7.0\Res\new stuff\general stuff\appIco.ico" />
+  </files>
+</package>

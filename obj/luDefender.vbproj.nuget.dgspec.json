@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj": {}
+    "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj": {}
   },
   "projects": {
-    "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj": {
+    "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj",
+        "projectUniqueName": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj",
         "projectName": "luDefender",
-        "projectPath": "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\luDefender.vbproj",
+        "projectPath": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\luDefender.vbproj",
         "packagesPath": "C:\\Users\\tudor\\.nuget\\packages\\",
-        "outputPath": "E:\\FOLDER TUDOR\\CYBER\\LuDefender\\obj\\",
+        "outputPath": "E:\\FOLDER TUDOR\\CYBER\\luDefender\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tudor\\AppData\\Roaming\\NuGet\\NuGet.Config",

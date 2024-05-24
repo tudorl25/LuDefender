@@ -15,6 +15,8 @@ Public Class ctlScanning
     Public Shared active As Boolean = False
     Private startTime As DateTime
     Private md5Hashes As New HashSet(Of String)()
+    Dim quickOrNot As Boolean
+    Dim lastScanPath As String
 
     Private hashDb As String = My.Resources.hash_database
     Private md5HashList As String()
@@ -28,9 +30,22 @@ Public Class ctlScanning
 
     Private fileHash As String
 
-
+    Public Sub changeOnLanguage()
+        If My.Settings.englishEnabled Then
+            PictureBox1.Image = My.Resources.filesScanned
+            PictureBox2.Image = My.Resources.startScan
+            stopScan.Image = My.Resources.stopScan
+            Panel2.BackgroundImage = My.Resources.scanStatus3
+        Else
+            PictureBox1.Image = My.Resources.RO_filesScanned
+            PictureBox2.Image = My.Resources.RO_startScan
+            stopScan.Image = My.Resources.RO_stopScan
+            Panel2.BackgroundImage = My.Resources.RO_scanStatus
+        End If
+    End Sub
 
     Public Sub StartScan()
+        quickOrNot = False
         If FolderBrowserDialog1.ShowDialog = DialogResult.OK Then
             md5HashList = hashDb.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries)
             virusList.Clear()
@@ -48,7 +63,8 @@ Public Class ctlScanning
 
         Try
             'On Error Resume Next
-            For Each strFile In Directory.GetFiles(FolderBrowserDialog1.SelectedPath, "*.*", SearchOption.AllDirectories)
+            lastScanPath = FolderBrowserDialog1.SelectedPath
+            For Each strFile In Directory.GetFiles(lastScanPath, "*.*", SearchOption.AllDirectories)
 
                 ListBox1.Items.Add(strFile)
 
@@ -61,7 +77,7 @@ Public Class ctlScanning
     End Sub
 
     Public Sub QuickScan()
-
+        quickOrNot = True
         md5HashList = hashDb.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries)
         virusList.Clear()
         index = 0
@@ -148,10 +164,9 @@ Public Class ctlScanning
             lblPercent.Text = System.Math.Round((100 * index / maxim), 2).ToString() + "%"
 
         Else
-
+            Dim diff As TimeSpan = DateTime.Now - DateTime.Parse(My.Settings.dateOfLastScan)
             My.Settings.dateOfLastScan = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
             My.Settings.dateOfLastSessionScan = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
-            My.Settings.Save()
             ListView1.Enabled = True
             Timer1.Stop()
             active = False
@@ -159,6 +174,18 @@ Public Class ctlScanning
             If detectedDangers > 0 Then
                 detectedDangers = 0
                 frmVirus.ShowDialog()
+            Else
+                If quickOrNot = False Then
+                    My.Settings.eventLog = My.Settings.eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd HH:mm") + " - We scanned and found no threats in " + lastScanPath + ";"
+                    My.Settings.RO_eventLog = My.Settings.RO_eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd HH:mm") + " - Nu au fost detectate pericole in " + lastScanPath + ";"
+                Else
+
+                    If diff.Hours > 12 Then
+                        My.Settings.eventLog = My.Settings.eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd") + " - No threats found today in scheduled scans;"
+                        My.Settings.RO_eventLog = My.Settings.RO_eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd") + " - Nu au fost detectate pericole azi prin scanare rapida;"
+                    End If
+                End If
+                My.Settings.Save()
             End If
 
         End If
@@ -190,5 +217,9 @@ Public Class ctlScanning
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
         StartScan()
+    End Sub
+
+    Private Sub ctlScanning_Load(sender As Object, e As EventArgs) Handles Me.Load
+        changeOnLanguage()
     End Sub
 End Class

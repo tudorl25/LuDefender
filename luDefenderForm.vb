@@ -42,6 +42,8 @@ Public Class Main
     Private Sub logButton_Click(sender As Object, e As EventArgs) Handles btnLog.MouseDown
         Timer1.Start()
         targetPos = 245
+        CtlEventLog1.updateLog()
+        CtlEventLog1.BringToFront()
     End Sub
 
     Private Sub settingButton_Click(sender As Object, e As EventArgs) Handles btnSettings.MouseDown
@@ -87,7 +89,6 @@ Public Class Main
         'Waiter.WaitOne(10) 'to get it into milliseconds
 
         'Console.WriteLine("Waiting is over!")
-
         CtlDashboard1.BringToFront()
     End Sub
 
@@ -101,16 +102,31 @@ Public Class Main
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         If Me.Visible Then
-            lastTime = DateTime.Parse(My.Settings.dateOfLastScan)
+            If My.Settings.dateOfLastScan IsNot "xx" Then
+                lastTime = DateTime.Parse(My.Settings.dateOfLastScan)
 
-            Dim diff As TimeSpan = DateTime.Now - lastTime
+                Dim diff As TimeSpan = DateTime.Now - lastTime
+                If My.Settings.englishEnabled Then
+                    CtlDashboard1.lblMinutes.Text = diff.Minutes.ToString() + " minutes"
+                    CtlDashboard1.lblDaysHours.Text = diff.Days.ToString() + " days, " + diff.Hours.ToString() + " hours"
+                Else
+                    CtlDashboard1.lblMinutes.Text = diff.Minutes.ToString() + " minute"
+                    CtlDashboard1.lblDaysHours.Text = diff.Days.ToString() + " zile, " + diff.Hours.ToString() + " ore"
+                End If
+            Else
+                If My.Settings.englishEnabled Then
+                    CtlDashboard1.lblDaysHours.Text = "NEVER"
+                    CtlDashboard1.lblMinutes.Text = "SCANNED"
+                Else
+                    CtlDashboard1.lblDaysHours.Text = "NICIODATA"
+                    CtlDashboard1.lblMinutes.Text = ""
+                End If
+            End If
 
-            CtlDashboard1.lblMinutes.Text = diff.Minutes.ToString() + " minutes"
-            CtlDashboard1.lblDaysHours.Text = diff.Days.ToString() + " days, " + diff.Hours.ToString() + " hours"
         End If
 
 
-        If ctlScanning.active = False And My.Settings.scheduledScanMode > -1 Then
+            If ctlScanning.active = False And My.Settings.scheduledScanMode > -1 Then
             lastTimeTwo = DateTime.Parse(My.Settings.dateOfLastSessionScan)
             Dim second_diff As TimeSpan = DateTime.Now - lastTimeTwo
             minutes = second_diff.Minutes + second_diff.Hours * 60 + second_diff.Days * 1440
@@ -122,13 +138,34 @@ Public Class Main
 
     End Sub
 
-    Private Sub Main_Load(sender As Object, e As EventArgs) Handles Me.Load
-        'transitionPic.Image = My.Resources.Dashboard
-        ' transitionPic.BringToFront()
-        'CtlDashboard1.BringToFront()
+    Public Sub changeOnLanguage()
+        If My.Settings.englishEnabled Then
+            btnDash.Image = My.Resources.dasboardTab
+            btnScan.Image = My.Resources.scanningTab
+            btnTool.Image = My.Resources.toolTab
+            btnLog.Image = My.Resources.logTab
+            btnSettings.Image = My.Resources.settingsTab
+        Else
+            btnDash.Image = My.Resources.RO_dasboardTab
+            btnScan.Image = My.Resources.RO_scanningTab
+            btnTool.Image = My.Resources.RO_toolTab
+            btnLog.Image = My.Resources.RO_logTab
+            btnSettings.Image = My.Resources.RO_settingsTab
+        End If
+        CtlDashboard1.changeOnLanguage()
+        CtlScanning1.changeOnLanguage()
+        FrmTools1.changeOnLanguage()
+        CtlEventLog1.changeOnLanguage()
 
+    End Sub
+
+    Private Sub Main_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.Text = "LuDefender"
+        If My.Settings.startupMode = 1 Then
+            WindowState = FormWindowState.Minimized
+        End If
+        changeOnLanguage()
         My.Settings.dateOfLastSessionScan = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
-        'My.Settings.scheduledScanMode = 5
         My.Settings.Save()
 
         Timer2.Start()
@@ -136,6 +173,10 @@ Public Class Main
 
     Private Sub NotifyIcon1_MouseClick(sender As Object, e As MouseEventArgs) Handles NotifyIcon1.MouseClick
         Me.Show()
+    End Sub
+
+    Private Sub NotifyIcon1_RightMouseClick(sender As Object, e As MouseEventArgs) Handles NotifyIcon1.MouseDoubleClick
+        Me.Close()
     End Sub
 
     Public Sub SwitchToScanning()
@@ -148,4 +189,7 @@ Public Class Main
         CtlScanning1.BringToFront()
     End Sub
 
+    Private Sub mainPanel_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
 End Class

@@ -76,15 +76,14 @@ Partial Class ctlDashboard
         ' lblSafe
         ' 
         lblSafe.AutoSize = True
-        lblSafe.BackColor = Color.Transparent
+        lblSafe.BackColor = Color.FromArgb(CByte(25), CByte(21), CByte(54))
         lblSafe.Font = New Font("Moulpali", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblSafe.ForeColor = Color.White
-        lblSafe.Image = My.Resources.Resources.lilPatch
-        lblSafe.Location = New Point(264, 239)
+        lblSafe.Location = New Point(286, 239)
         lblSafe.Name = "lblSafe"
-        lblSafe.Size = New Size(71, 60)
+        lblSafe.Size = New Size(76, 60)
         lblSafe.TabIndex = 18
-        lblSafe.Text = "Safe"
+        lblSafe.Text = "SAFE"
         ' 
         ' lblCorny
         ' 
@@ -136,10 +135,13 @@ Partial Class ctlDashboard
         ' 
         ' logoSafety
         ' 
+        logoSafety.BackColor = Color.Transparent
+        logoSafety.BackgroundImageLayout = ImageLayout.Center
         logoSafety.Image = My.Resources.Resources.weGotYourBackLogo
-        logoSafety.Location = New Point(245, 35)
+        logoSafety.Location = New Point(164, 35)
         logoSafety.Name = "logoSafety"
-        logoSafety.Size = New Size(386, 160)
+        logoSafety.Size = New Size(597, 160)
+        logoSafety.SizeMode = PictureBoxSizeMode.CenterImage
         logoSafety.TabIndex = 12
         logoSafety.TabStop = False
         ' 
@@ -150,10 +152,10 @@ Partial Class ctlDashboard
         BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
         BackgroundImage = My.Resources.Resources.bigPatch4
         BackgroundImageLayout = ImageLayout.Center
+        Controls.Add(lblCorny)
         Controls.Add(lblMinutes)
         Controls.Add(lblDaysHours)
         Controls.Add(lblSafe)
-        Controls.Add(lblCorny)
         Controls.Add(PictureBox4)
         Controls.Add(btnFullScan)
         Controls.Add(btnQuickScan)

@@ -37,7 +37,7 @@ Partial Class frmTools
         ' btnFirewall
         ' 
         btnFirewall.Image = My.Resources.Resources.disable_firewall
-        btnFirewall.Location = New Point(47, 3)
+        btnFirewall.Location = New Point(47, 17)
         btnFirewall.Name = "btnFirewall"
         btnFirewall.Size = New Size(795, 168)
         btnFirewall.TabIndex = 22
@@ -50,7 +50,7 @@ Partial Class frmTools
         userInput.BorderStyle = BorderStyle.None
         userInput.Font = New Font("Moulpali", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         userInput.ForeColor = Color.White
-        userInput.Location = New Point(81, 320)
+        userInput.Location = New Point(81, 334)
         userInput.Name = "userInput"
         userInput.Size = New Size(724, 33)
         userInput.TabIndex = 23
@@ -59,7 +59,7 @@ Partial Class frmTools
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.url_checker
-        PictureBox1.Location = New Point(42, 192)
+        PictureBox1.Location = New Point(42, 206)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(800, 211)
         PictureBox1.TabIndex = 24
@@ -81,9 +81,9 @@ Partial Class frmTools
         ' btnShredder
         ' 
         btnShredder.Image = My.Resources.Resources.file_shredder
-        btnShredder.Location = New Point(42, 425)
+        btnShredder.Location = New Point(42, 439)
         btnShredder.Name = "btnShredder"
-        btnShredder.Size = New Size(800, 196)
+        btnShredder.Size = New Size(800, 175)
         btnShredder.TabIndex = 25
         btnShredder.TabStop = False
         ' 
@@ -96,7 +96,7 @@ Partial Class frmTools
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Transparent
-        BackgroundImage = My.Resources.Resources.bigPatch4
+        BackgroundImage = My.Resources.Resources.backGround
         BackgroundImageLayout = ImageLayout.Center
         Controls.Add(Panel1)
         DoubleBuffered = True

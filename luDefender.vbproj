@@ -3,11 +3,16 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
-    <StartupObject>luDefender.My.MyApplication</StartupObject>
+    <StartupObject>LuDefender.My.MyApplication</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Res\new stuff\general stuff\appIco.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Res\new stuff\general stuff\appIco.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

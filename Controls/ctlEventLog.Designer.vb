@@ -23,32 +23,45 @@ Partial Class ctlEventLog
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Panel1 = New Panel()
+        btnClear = New PictureBox()
         eventLog = New ListBox()
         Panel1.SuspendLayout()
+        CType(btnClear, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel1
         ' 
         Panel1.BackgroundImage = My.Resources.Resources.Event_log1
         Panel1.BackgroundImageLayout = ImageLayout.Center
+        Panel1.Controls.Add(btnClear)
         Panel1.Controls.Add(eventLog)
         Panel1.Location = New Point(21, 3)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(827, 608)
         Panel1.TabIndex = 1
         ' 
+        ' btnClear
+        ' 
+        btnClear.Image = My.Resources.Resources.clearBtn
+        btnClear.Location = New Point(709, 63)
+        btnClear.Name = "btnClear"
+        btnClear.Size = New Size(81, 44)
+        btnClear.TabIndex = 2
+        btnClear.TabStop = False
+        ' 
         ' eventLog
         ' 
         eventLog.BackColor = Color.FromArgb(CByte(40), CByte(35), CByte(70))
         eventLog.BorderStyle = BorderStyle.None
-        eventLog.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        eventLog.Font = New Font("Moulpali", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         eventLog.ForeColor = Color.White
         eventLog.FormattingEnabled = True
-        eventLog.ItemHeight = 46
-        eventLog.Location = New Point(56, 118)
+        eventLog.HorizontalScrollbar = True
+        eventLog.ItemHeight = 36
+        eventLog.Location = New Point(57, 119)
         eventLog.Name = "eventLog"
         eventLog.RightToLeft = RightToLeft.No
-        eventLog.Size = New Size(726, 414)
+        eventLog.Size = New Size(726, 432)
         eventLog.TabIndex = 1
         ' 
         ' ctlEventLog
@@ -63,10 +76,12 @@ Partial Class ctlEventLog
         Name = "ctlEventLog"
         Size = New Size(889, 683)
         Panel1.ResumeLayout(False)
+        CType(btnClear, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents eventLog As ListBox
+    Friend WithEvents btnClear As PictureBox
 
 End Class

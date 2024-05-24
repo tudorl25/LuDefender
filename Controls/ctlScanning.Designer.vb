@@ -85,7 +85,7 @@ Partial Class ctlScanning
         lblTimeElapsed.AutoSize = True
         lblTimeElapsed.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblTimeElapsed.ForeColor = Color.White
-        lblTimeElapsed.Location = New Point(159, 88)
+        lblTimeElapsed.Location = New Point(160, 90)
         lblTimeElapsed.Name = "lblTimeElapsed"
         lblTimeElapsed.Size = New Size(73, 54)
         lblTimeElapsed.TabIndex = 22
@@ -107,7 +107,7 @@ Partial Class ctlScanning
         lblDangerous.AutoSize = True
         lblDangerous.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblDangerous.ForeColor = Color.White
-        lblDangerous.Location = New Point(257, 55)
+        lblDangerous.Location = New Point(264, 55)
         lblDangerous.Name = "lblDangerous"
         lblDangerous.Size = New Size(34, 54)
         lblDangerous.TabIndex = 20
@@ -118,7 +118,7 @@ Partial Class ctlScanning
         lblFileScanned.AutoSize = True
         lblFileScanned.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblFileScanned.ForeColor = Color.White
-        lblFileScanned.Location = New Point(247, 19)
+        lblFileScanned.Location = New Point(262, 19)
         lblFileScanned.Name = "lblFileScanned"
         lblFileScanned.Size = New Size(34, 54)
         lblFileScanned.TabIndex = 19
@@ -129,7 +129,7 @@ Partial Class ctlScanning
         lilRadar.AutoSize = True
         lilRadar.ImageIndex = 0
         lilRadar.ImageList = ImageList1
-        lilRadar.Location = New Point(330, 8)
+        lilRadar.Location = New Point(324, 9)
         lilRadar.MaximumSize = New Size(256, 256)
         lilRadar.MinimumSize = New Size(256, 256)
         lilRadar.Name = "lilRadar"
@@ -269,7 +269,7 @@ Partial Class ctlScanning
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
-        BackgroundImage = My.Resources.Resources.bigPatch4
+        BackgroundImage = My.Resources.Resources.backGround
         BackgroundImageLayout = ImageLayout.Center
         Controls.Add(Panel1)
         DoubleBuffered = True

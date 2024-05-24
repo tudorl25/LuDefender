@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("2024-05-16 14:34:56")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("xx")>  _
         Public Property dateOfLastScan() As String
             Get
                 Return CType(Me("dateOfLastScan"),String)
@@ -92,7 +92,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("2024-05-16 14:34:56")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("xx")>  _
         Public Property dateOfLastSessionScan() As String
             Get
                 Return CType(Me("dateOfLastSessionScan"),String)
@@ -123,6 +123,53 @@ Namespace My
             End Get
             Set
                 Me("startupMode") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property isSafe() As Boolean
+            Get
+                Return CType(Me("isSafe"),Boolean)
+            End Get
+            Set
+                Me("isSafe") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property eventLog() As String
+            Get
+                Return CType(Me("eventLog"),String)
+            End Get
+            Set
+                Me("eventLog") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
+        Public Property unresolvedVirus() As Global.System.Collections.Specialized.StringCollection
+            Get
+                Return CType(Me("unresolvedVirus"),Global.System.Collections.Specialized.StringCollection)
+            End Get
+            Set
+                Me("unresolvedVirus") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property RO_eventLog() As String
+            Get
+                Return CType(Me("RO_eventLog"),String)
+            End Get
+            Set
+                Me("RO_eventLog") = value
             End Set
         End Property
     End Class

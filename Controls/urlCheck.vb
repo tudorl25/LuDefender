@@ -76,6 +76,7 @@ Public Class urlCheck
 
 
     Private Sub urlCheck_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.Text = "LuDefender - Detection"
         Timer1.Start()
         lblUrl.Text = frmTools.urlToCheck
         lblState1.ForeColor = Color.White

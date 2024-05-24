@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="dateOfLastScan" Type="System.String" Scope="User">
-      <Value Profile="(Default)">2024-05-16 14:34:56</Value>
+      <Value Profile="(Default)">xx</Value>
     </Setting>
     <Setting Name="scheduledScanMode" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">5</Value>
@@ -12,13 +12,25 @@
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="dateOfLastSessionScan" Type="System.String" Scope="User">
-      <Value Profile="(Default)">2024-05-16 14:34:56</Value>
+      <Value Profile="(Default)">xx</Value>
     </Setting>
     <Setting Name="englishEnabled" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="startupMode" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="isSafe" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="eventLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="unresolvedVirus" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RO_eventLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

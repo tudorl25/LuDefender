@@ -1,0 +1,6 @@
+E:\FOLDER TUDOR\CYBER\exes\luDefender.exe
+E:\FOLDER TUDOR\CYBER\exes\luDefender.dll
+E:\FOLDER TUDOR\CYBER\exes\luDefender.deps.json
+E:\FOLDER TUDOR\CYBER\exes\luDefender.runtimeconfig.json
+E:\FOLDER TUDOR\CYBER\exes\luDefender.dll.config
+E:\FOLDER TUDOR\CYBER\exes\luDefender.pdb

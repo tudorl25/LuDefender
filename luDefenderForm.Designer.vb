@@ -29,6 +29,10 @@ Partial Class Main
         NotifyIcon1 = New NotifyIcon(components)
         mainPanel = New Panel()
         FrmSettings1 = New frmSettings()
+        CtlEventLog1 = New ctlEventLog()
+        FrmTools1 = New frmTools()
+        CtlScanning1 = New ctlScanning()
+        CtlDashboard1 = New ctlDashboard()
         topPanel = New Panel()
         btnClose = New PictureBox()
         btnMin = New PictureBox()
@@ -41,9 +45,6 @@ Partial Class Main
         btnLog = New PictureBox()
         btnSettings = New PictureBox()
         selectionThingy = New PictureBox()
-        CtlDashboard1 = New ctlDashboard()
-        CtlScanning1 = New ctlScanning()
-        FrmTools1 = New frmTools()
         transitionPic = New PictureBox()
         mainPanel.SuspendLayout()
         topPanel.SuspendLayout()
@@ -71,23 +72,24 @@ Partial Class Main
         ' NotifyIcon1
         ' 
         NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), Icon)
-        NotifyIcon1.Text = "NotifyIcon1"
+        NotifyIcon1.Text = "LuDefender"
         NotifyIcon1.Visible = True
         ' 
         ' mainPanel
         ' 
         mainPanel.BackColor = Color.Transparent
         mainPanel.BorderStyle = BorderStyle.FixedSingle
+        mainPanel.Controls.Add(CtlDashboard1)
         mainPanel.Controls.Add(topPanel)
         mainPanel.Controls.Add(Panel1)
-        mainPanel.Controls.Add(CtlDashboard1)
-        mainPanel.Controls.Add(CtlScanning1)
-        mainPanel.Controls.Add(FrmTools1)
         mainPanel.Controls.Add(transitionPic)
         mainPanel.Controls.Add(FrmSettings1)
+        mainPanel.Controls.Add(CtlEventLog1)
+        mainPanel.Controls.Add(FrmTools1)
+        mainPanel.Controls.Add(CtlScanning1)
         mainPanel.Location = New Point(-1, 0)
         mainPanel.Name = "mainPanel"
-        mainPanel.Size = New Size(1076, 764)
+        mainPanel.Size = New Size(1113, 764)
         mainPanel.TabIndex = 0
         ' 
         ' FrmSettings1
@@ -95,10 +97,50 @@ Partial Class Main
         FrmSettings1.BackColor = Color.Transparent
         FrmSettings1.BackgroundImage = CType(resources.GetObject("FrmSettings1.BackgroundImage"), Image)
         FrmSettings1.BackgroundImageLayout = ImageLayout.Center
-        FrmSettings1.Location = New Point(187, 80)
+        FrmSettings1.Location = New Point(219, 80)
         FrmSettings1.Name = "FrmSettings1"
         FrmSettings1.Size = New Size(889, 683)
-        FrmSettings1.TabIndex = 6
+        FrmSettings1.TabIndex = 10
+        ' 
+        ' CtlEventLog1
+        ' 
+        CtlEventLog1.BackColor = Color.Transparent
+        CtlEventLog1.BackgroundImage = CType(resources.GetObject("CtlEventLog1.BackgroundImage"), Image)
+        CtlEventLog1.BackgroundImageLayout = ImageLayout.Center
+        CtlEventLog1.Location = New Point(222, 81)
+        CtlEventLog1.Name = "CtlEventLog1"
+        CtlEventLog1.Size = New Size(889, 683)
+        CtlEventLog1.TabIndex = 9
+        ' 
+        ' FrmTools1
+        ' 
+        FrmTools1.BackColor = Color.Transparent
+        FrmTools1.BackgroundImage = CType(resources.GetObject("FrmTools1.BackgroundImage"), Image)
+        FrmTools1.BackgroundImageLayout = ImageLayout.Center
+        FrmTools1.Location = New Point(217, 80)
+        FrmTools1.Name = "FrmTools1"
+        FrmTools1.Size = New Size(889, 683)
+        FrmTools1.TabIndex = 8
+        ' 
+        ' CtlScanning1
+        ' 
+        CtlScanning1.BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
+        CtlScanning1.BackgroundImage = CType(resources.GetObject("CtlScanning1.BackgroundImage"), Image)
+        CtlScanning1.BackgroundImageLayout = ImageLayout.Center
+        CtlScanning1.Location = New Point(217, 82)
+        CtlScanning1.Name = "CtlScanning1"
+        CtlScanning1.Size = New Size(889, 683)
+        CtlScanning1.TabIndex = 7
+        ' 
+        ' CtlDashboard1
+        ' 
+        CtlDashboard1.BackColor = Color.FromArgb(CByte(16), CByte(12), CByte(40))
+        CtlDashboard1.BackgroundImage = CType(resources.GetObject("CtlDashboard1.BackgroundImage"), Image)
+        CtlDashboard1.BackgroundImageLayout = ImageLayout.Center
+        CtlDashboard1.Location = New Point(217, 79)
+        CtlDashboard1.Name = "CtlDashboard1"
+        CtlDashboard1.Size = New Size(889, 683)
+        CtlDashboard1.TabIndex = 6
         ' 
         ' topPanel
         ' 
@@ -109,13 +151,13 @@ Partial Class Main
         topPanel.Dock = DockStyle.Top
         topPanel.Location = New Point(0, 0)
         topPanel.Name = "topPanel"
-        topPanel.Size = New Size(1074, 82)
+        topPanel.Size = New Size(1111, 82)
         topPanel.TabIndex = 0
         ' 
         ' btnClose
         ' 
         btnClose.Image = My.Resources.Resources.closeButton
-        btnClose.Location = New Point(1015, 25)
+        btnClose.Location = New Point(1056, 25)
         btnClose.Name = "btnClose"
         btnClose.Size = New Size(39, 39)
         btnClose.SizeMode = PictureBoxSizeMode.Zoom
@@ -125,7 +167,7 @@ Partial Class Main
         ' btnMin
         ' 
         btnMin.Image = My.Resources.Resources.minButton
-        btnMin.Location = New Point(954, 25)
+        btnMin.Location = New Point(994, 25)
         btnMin.Name = "btnMin"
         btnMin.Size = New Size(39, 39)
         btnMin.SizeMode = PictureBoxSizeMode.Zoom
@@ -135,7 +177,7 @@ Partial Class Main
         ' appLogo
         ' 
         appLogo.Image = My.Resources.Resources.appLogo
-        appLogo.Location = New Point(40, 19)
+        appLogo.Location = New Point(24, 14)
         appLogo.Name = "appLogo"
         appLogo.Size = New Size(140, 50)
         appLogo.TabIndex = 0
@@ -151,106 +193,76 @@ Partial Class Main
         Panel1.Controls.Add(btnLog)
         Panel1.Controls.Add(btnSettings)
         Panel1.Controls.Add(selectionThingy)
-        Panel1.Location = New Point(0, 0)
+        Panel1.Location = New Point(-1, -1)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(190, 764)
+        Panel1.Size = New Size(222, 764)
         Panel1.TabIndex = 1
         ' 
         ' Panel2
         ' 
-        Panel2.Location = New Point(187, 81)
+        Panel2.Location = New Point(216, 81)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(889, 683)
+        Panel2.Size = New Size(860, 683)
         Panel2.TabIndex = 12
         ' 
         ' btnDash
         ' 
         btnDash.Image = My.Resources.Resources.dasboardTab
-        btnDash.Location = New Point(33, 102)
+        btnDash.Location = New Point(25, 101)
         btnDash.Name = "btnDash"
-        btnDash.Size = New Size(113, 32)
+        btnDash.Size = New Size(134, 32)
         btnDash.TabIndex = 4
         btnDash.TabStop = False
         ' 
         ' btnScan
         ' 
         btnScan.Image = My.Resources.Resources.scanningTab
-        btnScan.Location = New Point(33, 150)
+        btnScan.Location = New Point(25, 149)
         btnScan.Name = "btnScan"
-        btnScan.Size = New Size(113, 34)
+        btnScan.Size = New Size(124, 34)
         btnScan.TabIndex = 3
         btnScan.TabStop = False
         ' 
         ' btnTool
         ' 
         btnTool.Image = My.Resources.Resources.toolTab
-        btnTool.Location = New Point(33, 198)
+        btnTool.Location = New Point(25, 197)
         btnTool.Name = "btnTool"
-        btnTool.Size = New Size(113, 32)
+        btnTool.Size = New Size(124, 32)
         btnTool.TabIndex = 2
         btnTool.TabStop = False
         ' 
         ' btnLog
         ' 
         btnLog.Image = My.Resources.Resources.logTab
-        btnLog.Location = New Point(33, 247)
+        btnLog.Location = New Point(25, 246)
         btnLog.Name = "btnLog"
-        btnLog.Size = New Size(113, 33)
+        btnLog.Size = New Size(124, 33)
         btnLog.TabIndex = 1
         btnLog.TabStop = False
         ' 
         ' btnSettings
         ' 
         btnSettings.Image = My.Resources.Resources.settingsTab
-        btnSettings.Location = New Point(33, 295)
+        btnSettings.Location = New Point(25, 294)
         btnSettings.Name = "btnSettings"
-        btnSettings.Size = New Size(113, 33)
+        btnSettings.Size = New Size(124, 33)
         btnSettings.TabIndex = 0
         btnSettings.TabStop = False
         ' 
         ' selectionThingy
         ' 
         selectionThingy.Image = My.Resources.Resources.selectionThingy1
-        selectionThingy.Location = New Point(115, 98)
+        selectionThingy.Location = New Point(141, 98)
         selectionThingy.Name = "selectionThingy"
         selectionThingy.Size = New Size(73, 50)
         selectionThingy.TabIndex = 5
         selectionThingy.TabStop = False
         ' 
-        ' CtlDashboard1
-        ' 
-        CtlDashboard1.BackColor = Color.Transparent
-        CtlDashboard1.BackgroundImage = CType(resources.GetObject("CtlDashboard1.BackgroundImage"), Image)
-        CtlDashboard1.BackgroundImageLayout = ImageLayout.Center
-        CtlDashboard1.Location = New Point(184, 80)
-        CtlDashboard1.Name = "CtlDashboard1"
-        CtlDashboard1.Size = New Size(889, 683)
-        CtlDashboard1.TabIndex = 2
-        ' 
-        ' CtlScanning1
-        ' 
-        CtlScanning1.BackColor = Color.Transparent
-        CtlScanning1.BackgroundImage = CType(resources.GetObject("CtlScanning1.BackgroundImage"), Image)
-        CtlScanning1.BackgroundImageLayout = ImageLayout.Center
-        CtlScanning1.Location = New Point(187, 84)
-        CtlScanning1.Name = "CtlScanning1"
-        CtlScanning1.Size = New Size(889, 683)
-        CtlScanning1.TabIndex = 3
-        ' 
-        ' FrmTools1
-        ' 
-        FrmTools1.BackColor = Color.Transparent
-        FrmTools1.BackgroundImage = CType(resources.GetObject("FrmTools1.BackgroundImage"), Image)
-        FrmTools1.BackgroundImageLayout = ImageLayout.Center
-        FrmTools1.Location = New Point(186, 82)
-        FrmTools1.Name = "FrmTools1"
-        FrmTools1.Size = New Size(889, 683)
-        FrmTools1.TabIndex = 4
-        ' 
         ' transitionPic
         ' 
         transitionPic.Image = My.Resources.Resources.bigPatch4
-        transitionPic.Location = New Point(187, 81)
+        transitionPic.Location = New Point(217, 81)
         transitionPic.Name = "transitionPic"
         transitionPic.Size = New Size(889, 683)
         transitionPic.TabIndex = 5
@@ -263,7 +275,7 @@ Partial Class Main
         BackColor = Color.FromArgb(CByte(22), CByte(18), CByte(47))
         BackgroundImage = My.Resources.Resources.backGround
         BackgroundImageLayout = ImageLayout.Center
-        ClientSize = New Size(1074, 764)
+        ClientSize = New Size(1107, 764)
         Controls.Add(mainPanel)
         DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
@@ -300,10 +312,11 @@ Partial Class Main
     Friend WithEvents btnLog As PictureBox
     Friend WithEvents selectionThingy As PictureBox
     Friend WithEvents Panel2 As Panel
+    Friend WithEvents transitionPic As PictureBox
     Friend WithEvents CtlDashboard1 As ctlDashboard
     Friend WithEvents CtlScanning1 As ctlScanning
     Friend WithEvents FrmTools1 As frmTools
-    Friend WithEvents transitionPic As PictureBox
     Friend WithEvents FrmSettings1 As frmSettings
+    Friend WithEvents CtlEventLog1 As ctlEventLog
 
 End Class

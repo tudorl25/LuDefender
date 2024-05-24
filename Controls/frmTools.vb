@@ -6,7 +6,27 @@ Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Public Class frmTools
 
     Public Shared urlToCheck As String
-    Private MyChar As Char() = {"h", "t", "p", ":", "/", "w", "."}
+
+    Public Sub changeOnLanguage()
+        If My.Settings.englishEnabled Then
+            If My.Settings.fireWallActive Then
+                btnFirewall.Image = My.Resources.enable_firewall
+            Else
+                btnFirewall.Image = My.Resources.disable_firewall
+            End If
+            PictureBox1.Image = My.Resources.url_checker
+            btnShredder.Image = My.Resources.file_shredder
+        Else
+            If My.Settings.fireWallActive Then
+                btnFirewall.Image = My.Resources.RO_enable_firewall
+            Else
+                btnFirewall.Image = My.Resources.RO_disable_firewall
+            End If
+            PictureBox1.Image = My.Resources.RO_url_checker
+            btnShredder.Image = My.Resources.RO_file_shredder
+        End If
+    End Sub
+
     Private Sub btnFirewall_Click(sender As Object, e As EventArgs) Handles btnFirewall.MouseDown
 
         Dim firewall As New Process
@@ -40,7 +60,8 @@ Public Class frmTools
     End Sub
 
     Private Sub frmTools_Load(sender As Object, e As EventArgs) Handles Me.Load
-        fireWallStateHandle()
+        'fireWallStateHandle()
+        changeOnLanguage()
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
@@ -49,7 +70,6 @@ Public Class frmTools
         pattern = "http://([\w+?\.\w+])+([a-zA-Z0-9\~\!\@\#\$\%\^\&\*\(\)_\-\=\+\\\/\?\.\:\;\'\,]*)?"
         If Regex.IsMatch(urlToCheck, pattern) Then
             urlToCheck = urlToCheck.Remove(0, 11)
-            'MessageBox.Show(urlToCheck)
             urlCheck.ShowDialog()
         Else
             userInput.Text = "Please enter a valid website url, ex: http://www.website.com"
