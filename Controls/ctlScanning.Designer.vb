@@ -83,44 +83,44 @@ Partial Class ctlScanning
         ' lblTimeElapsed
         ' 
         lblTimeElapsed.AutoSize = True
-        lblTimeElapsed.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblTimeElapsed.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblTimeElapsed.ForeColor = Color.White
-        lblTimeElapsed.Location = New Point(160, 90)
+        lblTimeElapsed.Location = New Point(172, 101)
         lblTimeElapsed.Name = "lblTimeElapsed"
-        lblTimeElapsed.Size = New Size(73, 54)
+        lblTimeElapsed.Size = New Size(71, 29)
         lblTimeElapsed.TabIndex = 22
         lblTimeElapsed.Text = "00:00"
         ' 
         ' lblPercent
         ' 
         lblPercent.AutoSize = True
-        lblPercent.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblPercent.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblPercent.ForeColor = Color.White
-        lblPercent.Location = New Point(41, 129)
+        lblPercent.Location = New Point(41, 141)
         lblPercent.Name = "lblPercent"
-        lblPercent.Size = New Size(55, 54)
+        lblPercent.Size = New Size(48, 29)
         lblPercent.TabIndex = 21
         lblPercent.Text = "0%"
         ' 
         ' lblDangerous
         ' 
         lblDangerous.AutoSize = True
-        lblDangerous.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDangerous.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblDangerous.ForeColor = Color.White
-        lblDangerous.Location = New Point(264, 55)
+        lblDangerous.Location = New Point(271, 66)
         lblDangerous.Name = "lblDangerous"
-        lblDangerous.Size = New Size(34, 54)
+        lblDangerous.Size = New Size(26, 29)
         lblDangerous.TabIndex = 20
         lblDangerous.Text = "0"
         ' 
         ' lblFileScanned
         ' 
         lblFileScanned.AutoSize = True
-        lblFileScanned.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblFileScanned.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblFileScanned.ForeColor = Color.White
-        lblFileScanned.Location = New Point(262, 19)
+        lblFileScanned.Location = New Point(271, 29)
         lblFileScanned.Name = "lblFileScanned"
-        lblFileScanned.Size = New Size(34, 54)
+        lblFileScanned.Size = New Size(26, 29)
         lblFileScanned.TabIndex = 19
         lblFileScanned.Text = "0"
         ' 
@@ -204,7 +204,7 @@ Partial Class ctlScanning
         ListView1.BackgroundImage = My.Resources.Resources.filesScannedList
         ListView1.BorderStyle = BorderStyle.None
         ListView1.Columns.AddRange(New ColumnHeader() {fileScanned, fileType, fileStatus})
-        ListView1.Font = New Font("Moulpali", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ListView1.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         ListView1.ForeColor = Color.White
         ListView1.GridLines = True
         ListView1.HeaderStyle = ColumnHeaderStyle.Nonclickable

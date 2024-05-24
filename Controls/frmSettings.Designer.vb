@@ -131,9 +131,9 @@ Partial Class frmSettings
         ' 
         ' lblScheduled
         ' 
-        lblScheduled.Font = New Font("Moulpali", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblScheduled.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblScheduled.ForeColor = Color.White
-        lblScheduled.Location = New Point(451, 35)
+        lblScheduled.Location = New Point(451, 39)
         lblScheduled.Name = "lblScheduled"
         lblScheduled.Size = New Size(316, 40)
         lblScheduled.TabIndex = 12
@@ -142,9 +142,9 @@ Partial Class frmSettings
         ' 
         ' lblLanguage
         ' 
-        lblLanguage.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblLanguage.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblLanguage.ForeColor = Color.White
-        lblLanguage.Location = New Point(451, 264)
+        lblLanguage.Location = New Point(451, 266)
         lblLanguage.Name = "lblLanguage"
         lblLanguage.Size = New Size(316, 36)
         lblLanguage.TabIndex = 13
@@ -153,9 +153,9 @@ Partial Class frmSettings
         ' 
         ' lblStartup
         ' 
-        lblStartup.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblStartup.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblStartup.ForeColor = Color.White
-        lblStartup.Location = New Point(451, 479)
+        lblStartup.Location = New Point(451, 482)
         lblStartup.Name = "lblStartup"
         lblStartup.Size = New Size(316, 36)
         lblStartup.TabIndex = 14

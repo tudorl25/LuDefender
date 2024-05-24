@@ -43,7 +43,7 @@ Partial Class ctlEventLog
         ' btnClear
         ' 
         btnClear.Image = My.Resources.Resources.clearBtn
-        btnClear.Location = New Point(709, 63)
+        btnClear.Location = New Point(709, 66)
         btnClear.Name = "btnClear"
         btnClear.Size = New Size(81, 44)
         btnClear.TabIndex = 2
@@ -53,15 +53,15 @@ Partial Class ctlEventLog
         ' 
         eventLog.BackColor = Color.FromArgb(CByte(40), CByte(35), CByte(70))
         eventLog.BorderStyle = BorderStyle.None
-        eventLog.Font = New Font("Moulpali", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        eventLog.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         eventLog.ForeColor = Color.White
         eventLog.FormattingEnabled = True
         eventLog.HorizontalScrollbar = True
-        eventLog.ItemHeight = 36
+        eventLog.ItemHeight = 20
         eventLog.Location = New Point(57, 119)
         eventLog.Name = "eventLog"
         eventLog.RightToLeft = RightToLeft.No
-        eventLog.Size = New Size(726, 432)
+        eventLog.Size = New Size(726, 420)
         eventLog.TabIndex = 1
         ' 
         ' ctlEventLog

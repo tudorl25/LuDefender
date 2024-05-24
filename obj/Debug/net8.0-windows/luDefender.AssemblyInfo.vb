@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("luDefender"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+894a6c30029754c35772f8e3ba53808fe35e191e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("luDefender"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("luDefender"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

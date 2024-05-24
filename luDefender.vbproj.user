@@ -4,14 +4,23 @@
     <_LastSelectedProfileId>E:\FOLDER TUDOR\CYBER\luDefender\My Project\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="Controls\ctlCreateNew.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Controls\ctlDashboard.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Controls\ctlEventLog.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\ctlLogIn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Controls\ctlScanning.vb">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\frmAccount.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Controls\frmSettings.vb">
       <SubType>UserControl</SubType>
@@ -27,12 +36,6 @@
     </Compile>
     <Compile Update="CustomControls\myButton.vb">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="Forms\frmFirewall.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\frmPopup.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\frmVirus.vb">
       <SubType>Form</SubType>

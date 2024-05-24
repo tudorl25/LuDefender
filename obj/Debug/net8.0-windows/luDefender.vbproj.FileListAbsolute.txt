@@ -25,3 +25,29 @@ E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\refint\luDefender.dll
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.pdb
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\luDefender.genruntimeconfig.cache
 E:\FOLDER TUDOR\CYBER\luDefender\obj\Debug\net8.0-windows\ref\luDefender.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\luDefender.exe
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\luDefender.dll.config
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\luDefender.deps.json
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\luDefender.runtimeconfig.json
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\luDefender.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\luDefender.pdb
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.ctlDashboard.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.ctlEventLog.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.ctlScanning.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.frmSettings.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.frmTools.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.urlCheck.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.frmVirus.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.Main.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.Resources.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.vbproj.GenerateResource.cache
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.AssemblyInfo.vb
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.sourcelink.json
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.dll
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\refint\luDefender.dll
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.pdb
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.genruntimeconfig.cache
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\ref\luDefender.dll

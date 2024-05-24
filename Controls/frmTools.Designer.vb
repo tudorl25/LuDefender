@@ -48,11 +48,11 @@ Partial Class frmTools
         userInput.AcceptsTab = True
         userInput.BackColor = Color.FromArgb(CByte(46), CByte(41), CByte(68))
         userInput.BorderStyle = BorderStyle.None
-        userInput.Font = New Font("Moulpali", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        userInput.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         userInput.ForeColor = Color.White
-        userInput.Location = New Point(81, 334)
+        userInput.Location = New Point(81, 341)
         userInput.Name = "userInput"
-        userInput.Size = New Size(724, 33)
+        userInput.Size = New Size(724, 17)
         userInput.TabIndex = 23
         userInput.Text = "http://www.website.com"
         ' 

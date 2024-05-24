@@ -52,24 +52,24 @@ Partial Class ctlDashboard
         ' lblMinutes
         ' 
         lblMinutes.AutoSize = True
-        lblMinutes.Font = New Font("Moulpali", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblMinutes.Font = New Font("Microsoft Sans Serif", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblMinutes.ForeColor = Color.White
         lblMinutes.Image = My.Resources.Resources.lilPatch3
         lblMinutes.Location = New Point(629, 497)
         lblMinutes.Name = "lblMinutes"
-        lblMinutes.Size = New Size(132, 60)
+        lblMinutes.Size = New Size(131, 31)
         lblMinutes.TabIndex = 20
         lblMinutes.Text = "0 minutes"
         ' 
         ' lblDaysHours
         ' 
         lblDaysHours.AutoSize = True
-        lblDaysHours.Font = New Font("Moulpali", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDaysHours.Font = New Font("Microsoft Sans Serif", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblDaysHours.ForeColor = Color.White
         lblDaysHours.Image = My.Resources.Resources.lilPatch2
         lblDaysHours.Location = New Point(629, 437)
         lblDaysHours.Name = "lblDaysHours"
-        lblDaysHours.Size = New Size(190, 60)
+        lblDaysHours.Size = New Size(199, 31)
         lblDaysHours.TabIndex = 19
         lblDaysHours.Text = "0 days, 0 hours"
         ' 
@@ -77,11 +77,11 @@ Partial Class ctlDashboard
         ' 
         lblSafe.AutoSize = True
         lblSafe.BackColor = Color.FromArgb(CByte(25), CByte(21), CByte(54))
-        lblSafe.Font = New Font("Moulpali", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSafe.Font = New Font("Microsoft Sans Serif", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblSafe.ForeColor = Color.White
-        lblSafe.Location = New Point(286, 239)
+        lblSafe.Location = New Point(298, 252)
         lblSafe.Name = "lblSafe"
-        lblSafe.Size = New Size(76, 60)
+        lblSafe.Size = New Size(85, 31)
         lblSafe.TabIndex = 18
         lblSafe.Text = "SAFE"
         ' 
@@ -89,11 +89,11 @@ Partial Class ctlDashboard
         ' 
         lblCorny.AutoSize = True
         lblCorny.BackColor = Color.Transparent
-        lblCorny.Font = New Font("Moulpali", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblCorny.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblCorny.ForeColor = Color.White
-        lblCorny.Location = New Point(70, 292)
+        lblCorny.Location = New Point(70, 298)
         lblCorny.Name = "lblCorny"
-        lblCorny.Size = New Size(661, 34)
+        lblCorny.Size = New Size(709, 18)
         lblCorny.TabIndex = 17
         lblCorny.Text = "Our protective measures have been implemented, so don't worry, LuDefender is making sure of your safety"
         ' 
