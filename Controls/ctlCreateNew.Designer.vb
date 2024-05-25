@@ -63,11 +63,11 @@ Partial Class ctlCreateNew
         ' 
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(238))
+        Label1.Font = New Font("Moulpali", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(468, 120)
+        Label1.Location = New Point(458, 114)
         Label1.Name = "Label1"
-        Label1.Size = New Size(140, 21)
+        Label1.Size = New Size(157, 46)
         Label1.TabIndex = 38
         Label1.Text = "CREATE ACCOUNT"
         ' 

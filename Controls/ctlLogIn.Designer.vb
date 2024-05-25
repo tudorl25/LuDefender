@@ -36,11 +36,11 @@ Partial Class ctlLogIn
         ' 
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(238))
+        Label1.Font = New Font("Moulpali", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(475, 110)
+        Label1.Location = New Point(478, 101)
         Label1.Name = "Label1"
-        Label1.Size = New Size(156, 21)
+        Label1.Size = New Size(154, 42)
         Label1.TabIndex = 48
         Label1.Text = "LOG INTO ACCOUNT"
         ' 
@@ -49,7 +49,7 @@ Partial Class ctlLogIn
         PictureBox1.Image = My.Resources.Resources.blueButton
         PictureBox1.Location = New Point(455, 80)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(207, 99)
+        PictureBox1.Size = New Size(194, 91)
         PictureBox1.TabIndex = 51
         PictureBox1.TabStop = False
         ' 

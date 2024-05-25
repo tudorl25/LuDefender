@@ -40,8 +40,13 @@ Public Class frmVirus
     Private Sub frmVirus_Load(sender As Object, e As EventArgs) Handles Me.Load
         Me.Text = "LuDefender - Detection"
         Try
-            Dim x As Integer = My.Settings.unresolvedVirus.Count
-            nrOfUnresolved = x
+            If My.Settings.unresolvedVirus IsNot Nothing Then
+                nrOfUnresolved = My.Settings.unresolvedVirus.Count
+            Else
+                nrOfUnresolved = 0
+                My.Settings.unresolvedVirus = New Specialized.StringCollection
+            End If
+
         Catch ex As Exception
             My.Settings.unresolvedVirus = New Specialized.StringCollection
             nrOfUnresolved = 0

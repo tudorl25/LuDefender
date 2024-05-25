@@ -88,3 +88,14 @@ E:\FOLDER TUDOR\Infoeducatie 2024\luDefender\obj\Debug\net8.0-windows\refint\luD
 E:\FOLDER TUDOR\Infoeducatie 2024\luDefender\obj\Debug\net8.0-windows\luDefender.pdb
 E:\FOLDER TUDOR\Infoeducatie 2024\luDefender\obj\Debug\net8.0-windows\luDefender.genruntimeconfig.cache
 E:\FOLDER TUDOR\Infoeducatie 2024\luDefender\obj\Debug\net8.0-windows\ref\luDefender.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\admin\Documents\GitHub\LuDefender\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.vbproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.ctlCreateNew.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.ctlLogIn.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.frmAccount.resources
+C:\Users\admin\Documents\GitHub\LuDefender\obj\Debug\net8.0-windows\luDefender.vbproj.Up2Date

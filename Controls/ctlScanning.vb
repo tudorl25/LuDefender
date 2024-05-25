@@ -164,6 +164,7 @@ Public Class ctlScanning
             lblPercent.Text = System.Math.Round((100 * index / maxim), 2).ToString() + "%"
 
         Else
+
             Dim diff As TimeSpan = DateTime.Now - DateTime.Parse(My.Settings.dateOfLastScan)
             My.Settings.dateOfLastScan = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
             My.Settings.dateOfLastSessionScan = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
@@ -220,6 +221,9 @@ Public Class ctlScanning
     End Sub
 
     Private Sub ctlScanning_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If My.Settings.dateOfLastScan = "xx" Then
+            My.Settings.dateOfLastScan = DateTime.Now.ToString("yyyy.MM.dd HH:mm")
+        End If
         changeOnLanguage()
     End Sub
 End Class

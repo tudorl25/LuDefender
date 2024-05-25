@@ -1,0 +1,12 @@
+C:\Infoeducatie 2024\LuDefender\luDefender.exe
+C:\Infoeducatie 2024\LuDefender\luDefender.dll
+C:\Infoeducatie 2024\LuDefender\luDefender.deps.json
+C:\Infoeducatie 2024\LuDefender\luDefender.runtimeconfig.json
+C:\Infoeducatie 2024\LuDefender\luDefender.dll.config
+C:\Infoeducatie 2024\LuDefender\luDefender.pdb
+C:\Infoeducatie 2024\LuDefender\System.Data.SqlClient.dll
+C:\Infoeducatie 2024\LuDefender\runtimes\win-arm64\native\sni.dll
+C:\Infoeducatie 2024\LuDefender\runtimes\win-x64\native\sni.dll
+C:\Infoeducatie 2024\LuDefender\runtimes\win-x86\native\sni.dll
+C:\Infoeducatie 2024\LuDefender\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Infoeducatie 2024\LuDefender\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

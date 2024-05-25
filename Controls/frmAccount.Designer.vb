@@ -137,22 +137,22 @@ Partial Class frmAccount
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(238))
+        Label1.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(124, 373)
+        Label1.Location = New Point(148, 364)
         Label1.Name = "Label1"
-        Label1.Size = New Size(234, 32)
+        Label1.Size = New Size(195, 54)
         Label1.TabIndex = 8
         Label1.Text = "LOG INTO ACCOUNT"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(238))
+        Label2.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(417, 373)
+        Label2.Location = New Point(441, 364)
         Label2.Name = "Label2"
-        Label2.Size = New Size(267, 32)
+        Label2.Size = New Size(220, 54)
         Label2.TabIndex = 9
         Label2.Text = "CREATE NEW ACCOUNT"
         ' 
