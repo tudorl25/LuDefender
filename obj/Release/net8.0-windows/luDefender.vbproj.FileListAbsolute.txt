@@ -62,3 +62,76 @@ C:\Users\admin\Documents\GitHub\LuDefender\obj\Release\net8.0-windows\refint\luD
 C:\Users\admin\Documents\GitHub\LuDefender\obj\Release\net8.0-windows\luDefender.pdb
 C:\Users\admin\Documents\GitHub\LuDefender\obj\Release\net8.0-windows\luDefender.genruntimeconfig.cache
 C:\Users\admin\Documents\GitHub\LuDefender\obj\Release\net8.0-windows\ref\luDefender.dll
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.vbproj.AssemblyReference.cache
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.ctlCreateNew.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.ctlDashboard.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.ctlEventLog.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.ctlLogIn.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.ctlScanning.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.frmAccount.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.frmSettings.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.frmTools.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.urlCheck.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.frmVirus.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.Main.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.Resources.resources
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.vbproj.GenerateResource.cache
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.AssemblyInfoInputs.cache
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.AssemblyInfo.vb
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.vbproj.CoreCompileInputs.cache
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.sourcelink.json
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.dll
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\refint\luDefender.dll
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.pdb
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\luDefender.exe
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\luDefender.dll.config
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\luDefender.deps.json
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\luDefender.runtimeconfig.json
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\luDefender.dll
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\luDefender.pdb
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ludi_\Source\Repos\LuDefender\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.vbproj.Up2Date
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\luDefender.genruntimeconfig.cache
+C:\Users\ludi_\Source\Repos\LuDefender\obj\Release\net8.0-windows\ref\luDefender.dll
+I:\LuDefender - source code\bin\Release\net8.0-windows\luDefender.exe
+I:\LuDefender - source code\bin\Release\net8.0-windows\luDefender.dll.config
+I:\LuDefender - source code\bin\Release\net8.0-windows\luDefender.deps.json
+I:\LuDefender - source code\bin\Release\net8.0-windows\luDefender.runtimeconfig.json
+I:\LuDefender - source code\bin\Release\net8.0-windows\luDefender.dll
+I:\LuDefender - source code\bin\Release\net8.0-windows\luDefender.pdb
+I:\LuDefender - source code\bin\Release\net8.0-windows\System.Data.SqlClient.dll
+I:\LuDefender - source code\bin\Release\net8.0-windows\runtimes\win-arm64\native\sni.dll
+I:\LuDefender - source code\bin\Release\net8.0-windows\runtimes\win-x64\native\sni.dll
+I:\LuDefender - source code\bin\Release\net8.0-windows\runtimes\win-x86\native\sni.dll
+I:\LuDefender - source code\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+I:\LuDefender - source code\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.vbproj.AssemblyReference.cache
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.ctlCreateNew.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.ctlDashboard.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.ctlEventLog.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.ctlLogIn.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.ctlScanning.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.frmAccount.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.frmSettings.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.frmTools.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.urlCheck.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.frmVirus.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.Main.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.Resources.resources
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.vbproj.GenerateResource.cache
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.GeneratedMSBuildEditorConfig.editorconfig
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.AssemblyInfoInputs.cache
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.AssemblyInfo.vb
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.vbproj.CoreCompileInputs.cache
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.vbproj.Up2Date
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.dll
+I:\LuDefender - source code\obj\Release\net8.0-windows\refint\luDefender.dll
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.pdb
+I:\LuDefender - source code\obj\Release\net8.0-windows\luDefender.genruntimeconfig.cache
+I:\LuDefender - source code\obj\Release\net8.0-windows\ref\luDefender.dll

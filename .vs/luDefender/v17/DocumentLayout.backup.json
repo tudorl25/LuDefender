@@ -1,0 +1,399 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\LuDefender - source code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\databasemanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\databasemanager.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmsettings.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctleventlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctleventlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctleventlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctleventlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\res\\new stuff\\hash_database.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:res\\new stuff\\hash_database.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlscanning.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\res\\new stuff\\url_database.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:res\\new stuff\\url_database.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctldashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctlscanning.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlscanning.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctllogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|I:\\LuDefender - source code\\my project\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:my project\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:forms\\frmvirus.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|I:\\LuDefender - source code\\my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:my project\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:ludefenderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|i:\\ludefender - source code\\controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2DD52D7F-25B7-454E-BD59-531911A5CD27}|luDefender.vbproj|solutionrelative:controls\\ctlcreatenew.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ctlDashboard.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlDashboard.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlDashboard.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlDashboard.vb",
+              "RelativeToolTip": "Controls\\ctlDashboard.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T11:45:03.763Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSettings.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\frmSettings.vb",
+              "RelativeDocumentMoniker": "Controls\\frmSettings.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\frmSettings.vb",
+              "RelativeToolTip": "Controls\\frmSettings.vb",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAuwCUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-15T17:09:18.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ctlEventLog.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlEventLog.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlEventLog.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlEventLog.vb",
+              "RelativeToolTip": "Controls\\ctlEventLog.vb",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-15T16:49:43.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ctlEventLog.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlEventLog.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlEventLog.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlEventLog.vb [Design]",
+              "RelativeToolTip": "Controls\\ctlEventLog.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-15T16:49:39.516Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "url_database.txt",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Res\\new stuff\\url_database.txt",
+              "RelativeDocumentMoniker": "Res\\new stuff\\url_database.txt",
+              "ToolTip": "I:\\LuDefender - source code\\Res\\new stuff\\url_database.txt",
+              "RelativeToolTip": "Res\\new stuff\\url_database.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-08T21:14:04.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmTools.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\frmTools.vb",
+              "RelativeDocumentMoniker": "Controls\\frmTools.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\frmTools.vb",
+              "RelativeToolTip": "Controls\\frmTools.vb",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-08T21:09:19.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmTools.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\frmTools.vb",
+              "RelativeDocumentMoniker": "Controls\\frmTools.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\frmTools.vb [Design]",
+              "RelativeToolTip": "Controls\\frmTools.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-08T21:09:16.474Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ctlLogIn.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlLogIn.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlLogIn.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlLogIn.vb",
+              "RelativeToolTip": "Controls\\ctlLogIn.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-08T19:19:18.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseManager.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\DatabaseManager.vb",
+              "RelativeDocumentMoniker": "Controls\\DatabaseManager.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\DatabaseManager.vb",
+              "RelativeToolTip": "Controls\\DatabaseManager.vb",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-08T19:18:03.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmVirus.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Forms\\frmVirus.vb",
+              "RelativeDocumentMoniker": "Forms\\frmVirus.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Forms\\frmVirus.vb",
+              "RelativeToolTip": "Forms\\frmVirus.vb",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwFAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-08T19:14:25.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ctlScanning.resx",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlScanning.resx",
+              "RelativeDocumentMoniker": "Controls\\ctlScanning.resx",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlScanning.resx",
+              "RelativeToolTip": "Controls\\ctlScanning.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-08T19:06:30.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmVirus.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Forms\\frmVirus.vb",
+              "RelativeDocumentMoniker": "Forms\\frmVirus.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Forms\\frmVirus.vb [Design]",
+              "RelativeToolTip": "Forms\\frmVirus.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-24T16:56:31.718Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ctlScanning.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlScanning.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlScanning.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlScanning.vb",
+              "RelativeToolTip": "Controls\\ctlScanning.vb",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwKwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-25T01:18:33.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ctlScanning.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlScanning.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlScanning.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlScanning.vb [Design]",
+              "RelativeToolTip": "Controls\\ctlScanning.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T09:08:54.716Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "hash_database.txt",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Res\\new stuff\\hash_database.txt",
+              "RelativeDocumentMoniker": "Res\\new stuff\\hash_database.txt",
+              "ToolTip": "I:\\LuDefender - source code\\Res\\new stuff\\hash_database.txt",
+              "RelativeToolTip": "Res\\new stuff\\hash_database.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-08T18:19:23.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ctlLogIn.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlLogIn.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlLogIn.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlLogIn.vb [Design]",
+              "RelativeToolTip": "Controls\\ctlLogIn.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-24T17:47:57.233Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ctlDashboard.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlDashboard.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlDashboard.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlDashboard.vb [Design]",
+              "RelativeToolTip": "Controls\\ctlDashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T11:41:36.028Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "I:\\LuDefender - source code\\My Project\\Settings.settings",
+              "RelativeDocumentMoniker": "My Project\\Settings.settings",
+              "ToolTip": "I:\\LuDefender - source code\\My Project\\Settings.settings",
+              "RelativeToolTip": "My Project\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-05-24T16:58:48.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "luDefenderForm.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\luDefenderForm.vb",
+              "RelativeDocumentMoniker": "luDefenderForm.vb",
+              "ToolTip": "I:\\LuDefender - source code\\luDefenderForm.vb [Design]",
+              "RelativeToolTip": "luDefenderForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-08T16:28:27.491Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ctlCreateNew.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\ctlCreateNew.vb",
+              "RelativeDocumentMoniker": "Controls\\ctlCreateNew.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\ctlCreateNew.vb [Design]",
+              "RelativeToolTip": "Controls\\ctlCreateNew.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-08T18:27:27.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "luDefenderForm.vb",
+              "DocumentMoniker": "I:\\LuDefender - source code\\luDefenderForm.vb",
+              "RelativeDocumentMoniker": "luDefenderForm.vb",
+              "ToolTip": "I:\\LuDefender - source code\\luDefenderForm.vb",
+              "RelativeToolTip": "luDefenderForm.vb",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwHsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-11T13:30:25.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "I:\\LuDefender - source code\\My Project\\Resources.resx",
+              "RelativeDocumentMoniker": "My Project\\Resources.resx",
+              "ToolTip": "I:\\LuDefender - source code\\My Project\\Resources.resx",
+              "RelativeToolTip": "My Project\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-24T16:58:28.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSettings.vb [Design]",
+              "DocumentMoniker": "I:\\LuDefender - source code\\Controls\\frmSettings.vb",
+              "RelativeDocumentMoniker": "Controls\\frmSettings.vb",
+              "ToolTip": "I:\\LuDefender - source code\\Controls\\frmSettings.vb [Design]",
+              "RelativeToolTip": "Controls\\frmSettings.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-24T16:55:36.863Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

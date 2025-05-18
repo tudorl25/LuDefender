@@ -36,22 +36,24 @@ Partial Class ctlLogIn
         ' 
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Moulpali", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(478, 101)
+        Label1.Location = New Point(491, 112)
         Label1.Name = "Label1"
-        Label1.Size = New Size(154, 42)
+        Label1.Size = New Size(138, 16)
         Label1.TabIndex = 48
         Label1.Text = "LOG INTO ACCOUNT"
+        Label1.Visible = False
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.blueButton
         PictureBox1.Location = New Point(455, 80)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(194, 91)
+        PictureBox1.Size = New Size(193, 91)
         PictureBox1.TabIndex = 51
         PictureBox1.TabStop = False
+        PictureBox1.Visible = False
         ' 
         ' CheckBox1
         ' 
@@ -91,14 +93,14 @@ Partial Class ctlLogIn
         ' 
         lblPass.Location = New Point(216, 156)
         lblPass.Name = "lblPass"
-        lblPass.Size = New Size(179, 23)
+        lblPass.Size = New Size(218, 23)
         lblPass.TabIndex = 43
         ' 
         ' lblEmail
         ' 
         lblEmail.Location = New Point(216, 82)
         lblEmail.Name = "lblEmail"
-        lblEmail.Size = New Size(179, 23)
+        lblEmail.Size = New Size(218, 23)
         lblEmail.TabIndex = 42
         ' 
         ' ctlLogIn

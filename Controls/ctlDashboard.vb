@@ -18,7 +18,7 @@
                 logoSafety.Image = My.Resources.RO_weGotYourBackLogo
                 PictureBox1.Image = My.Resources.RO_statusSafeLogo
                 lblSafe.Text = "SIGUR"
-                lblCorny.Text = "Masurile noastre de protectie au fost implementate, asa ca nu va faceti griji, LuDefender asigura siguranta dumneavoastra"
+                lblCorny.Text = "Masurile noastre de protectie au fost implementate, nu va faceti griji, LuDefender asigura siguranta dumneavoastra"
             Else
                 logoSafety.Image = My.Resources.RO_deviceInDanger
                 PictureBox1.Image = My.Resources.RO_dangerSystemStatus1

@@ -8,6 +8,8 @@
     <MyType>WindowsForms</MyType>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Res\new stuff\general stuff\appIco.ico</ApplicationIcon>
+    <Configurations>Debug;Release;LuDefender</Configurations>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>

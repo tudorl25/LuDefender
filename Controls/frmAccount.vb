@@ -36,4 +36,12 @@ Public Class frmAccount
             Label3.Text = "Account: " + My.Settings.userEmail
         End If
     End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub CtlLogIn1_Load(sender As Object, e As EventArgs) Handles CtlLogIn1.Load
+
+    End Sub
 End Class

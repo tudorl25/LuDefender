@@ -18,7 +18,7 @@ Public Class ctlScanning
     Dim quickOrNot As Boolean
     Dim lastScanPath As String
 
-    Private hashDb As String = My.Resources.hash_database
+    Private hashDb As String = My.Resources.hash_database1
     Private md5HashList As String()
 
     Private desiredPath As String() = {"Desktop", "Downloads", "Music", "Pictures", "Videos", "Saved Games"}
@@ -72,8 +72,6 @@ Public Class ctlScanning
         Catch ex As Exception
             'Console.Write(ex.ToString())
         End Try
-
-
     End Sub
 
     Public Sub QuickScan()
@@ -87,7 +85,8 @@ Public Class ctlScanning
         Timer2.Start()
         active = True
         startTime = DateTime.Now
-        Dim startPath As String = "C:\Users\" + Environment.UserName + "\"
+        Dim startPath As String = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\"
+
 
         For Each strPath In desiredPath
             Try
@@ -177,8 +176,11 @@ Public Class ctlScanning
                 frmVirus.ShowDialog()
             Else
                 If quickOrNot = False Then
-                    My.Settings.eventLog = My.Settings.eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd HH:mm") + " - We scanned and found no threats in " + lastScanPath + ";"
-                    My.Settings.RO_eventLog = My.Settings.RO_eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd HH:mm") + " - Nu au fost detectate pericole in " + lastScanPath + ";"
+                    My.Settings.eventLog = My.Settings.eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd HH:mm") +
+                        " - We scanned and found no threats in " + lastScanPath + ";"
+
+                    My.Settings.RO_eventLog = My.Settings.RO_eventLog + " " + DateTime.Now.ToString("yyyy.MM.dd HH:mm") +
+                        " - Nu au fost detectate pericole in " + lastScanPath + ";"
                 Else
 
                     If diff.Hours > 12 Then

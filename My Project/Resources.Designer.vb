@@ -301,7 +301,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to 9fdb84667721a953898a080e5e944292
+        '''  Looks up a localized string similar to 2de7533e974efcb2b684645330c6c741
         '''
         '''0fbc3d37cc61b0755c5aa896762ce517
         '''209c7ecbfbfa74a6427f0dd9728d0a7c
@@ -319,9 +319,9 @@ Namespace My.Resources
         '''d906dc607db7da070c40a43770cebfb1
         ''' [rest of string was truncated]&quot;;.
         '''</summary>
-        Friend ReadOnly Property hash_database() As String
+        Friend ReadOnly Property hash_database1() As String
             Get
-                Return ResourceManager.GetString("hash_database", resourceCulture)
+                Return ResourceManager.GetString("hash_database1", resourceCulture)
             End Get
         End Property
         

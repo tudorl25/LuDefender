@@ -1,0 +1,12 @@
+I:\New folder\luDefender.exe
+I:\New folder\luDefender.dll
+I:\New folder\luDefender.deps.json
+I:\New folder\luDefender.runtimeconfig.json
+I:\New folder\luDefender.dll.config
+I:\New folder\luDefender.pdb
+I:\New folder\System.Data.SqlClient.dll
+I:\New folder\runtimes\win-arm64\native\sni.dll
+I:\New folder\runtimes\win-x64\native\sni.dll
+I:\New folder\runtimes\win-x86\native\sni.dll
+I:\New folder\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+I:\New folder\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

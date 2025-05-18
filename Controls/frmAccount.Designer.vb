@@ -57,12 +57,12 @@ Partial Class frmAccount
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Moulpali", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label3.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.White
-        Label3.Location = New Point(159, 8)
+        Label3.Location = New Point(166, 17)
         Label3.Name = "Label3"
         Label3.RightToLeft = RightToLeft.No
-        Label3.Size = New Size(85, 36)
+        Label3.Size = New Size(90, 20)
         Label3.TabIndex = 10
         Label3.Text = "No account"
         ' 
@@ -90,8 +90,8 @@ Partial Class frmAccount
         ' Panel1
         ' 
         Panel1.BackColor = Color.Transparent
-        Panel1.Controls.Add(CtlLogIn1)
         Panel1.Controls.Add(CtlCreateNew1)
+        Panel1.Controls.Add(CtlLogIn1)
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 47)
         Panel1.Name = "Panel1"
@@ -137,22 +137,22 @@ Partial Class frmAccount
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(148, 364)
+        Label1.Location = New Point(118, 374)
         Label1.Name = "Label1"
-        Label1.Size = New Size(195, 54)
+        Label1.Size = New Size(253, 29)
         Label1.TabIndex = 8
         Label1.Text = "LOG INTO ACCOUNT"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Moulpali", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(441, 364)
+        Label2.Location = New Point(404, 373)
         Label2.Name = "Label2"
-        Label2.Size = New Size(220, 54)
+        Label2.Size = New Size(297, 29)
         Label2.TabIndex = 9
         Label2.Text = "CREATE NEW ACCOUNT"
         ' 
@@ -191,7 +191,7 @@ Partial Class frmAccount
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents CtlLogIn1 As ctlLogIn
     Friend WithEvents CtlCreateNew1 As ctlCreateNew
     Friend WithEvents Label3 As Label
+    Friend WithEvents CtlLogIn1 As ctlLogIn
 End Class
